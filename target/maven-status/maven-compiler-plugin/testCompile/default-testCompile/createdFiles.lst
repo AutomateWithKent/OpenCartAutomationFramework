@@ -1,0 +1,17 @@
+testCases\testForTestingOnlyClass.class
+testBase\BaseTest.class
+pageObjects\HomePage.class
+testCases\TC_003_LoginDTT.class
+pageObjects\MyAccountPage.class
+pageObjects\AccountRegistrationPage.class
+utilities\RandomStringUtils.class
+utilities\ExcelUtils.class
+utilities\ExtentReportUtils.class
+pageObjects\AccountConfirmationPage.class
+pageObjects\LoginPage.class
+pageObjects\BasePage.class
+utilities\ExtentReportManager.class
+testCases\TC_001_AccountRegistrationTest.class
+utilities\DataProviders.class
+pageObjects\LogoutConfirmationPage.class
+testCases\TC_002_LoginTest.class
