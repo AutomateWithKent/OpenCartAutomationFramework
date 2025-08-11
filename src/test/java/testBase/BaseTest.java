@@ -50,7 +50,7 @@ public Properties properties;
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 				if(os.equalsIgnoreCase("windows"))
 					{
-						capabilities.setPlatform(Platform.WIN11);
+						capabilities.setPlatform(Platform.WIN10);
 					}
 				else if(os.equalsIgnoreCase("mac"))
 					{
@@ -73,7 +73,7 @@ public Properties properties;
 					case "firefox" : capabilities.setBrowserName("firefox"); break;
 					default: System.out.println("No matching browser: " + browser); return;
 				}
-				driver = new RemoteWebDriver(new URI("http://192.168.1.6:4444/wd/hub").toURL(), capabilities);
+				driver = new RemoteWebDriver(new URI("http://localhost:4444/wd/hub").toURL(), capabilities);
 		}
 		
 		if(properties.getProperty("execution_env").equalsIgnoreCase("local"))
