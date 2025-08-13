@@ -12,10 +12,10 @@ public class AccountConfirmationPage extends BasePage{
 	}
 	
 	@FindBy(xpath="//div[@id='content']//h1[text()='Your Account Has Been Created!']")
-	WebElement lblConfirmationMessage;
+	private WebElement lblConfirmationMessage;
 	
 	@FindBy(xpath="//a[text()=\"Continue\"]")
-	WebElement btnContinue;
+	private WebElement btnContinue;
 	
 	public String getAccountConfirmationMessage()
 	{

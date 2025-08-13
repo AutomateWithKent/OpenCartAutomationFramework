@@ -5,8 +5,8 @@
 
 <groups>
 	<run>
-		<!--<include name="master"></include>-->
-		<include name="regression"></include>
+		<include name="master"></include>
+		<include name="sanity"></include>
 		<!--<include name="sanity"></include>-->
 	</run>
 </groups>
@@ -17,11 +17,12 @@
 
   <test thread-count="5" name="Test">
     <parameter name="browser" value="chrome"></parameter>
-    <parameter name="os" value="windows"></parameter>
+    <parameter name="os" value="linux"></parameter>
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest"></class>
       <class name="testCases.TC_002_LoginTest"></class>
       <class name="testCases.TC_003_LoginDTT"></class>
+      <class name="testCases.TC_004_SearchTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

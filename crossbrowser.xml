@@ -22,6 +22,7 @@
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest"/>
       <class name="testCases.TC_002_LoginTest"></class>
+      <class name="testCases.TC_004_SearchTest"></class>
     </classes>
   </test> 
 
@@ -30,6 +31,7 @@
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest"/>
       <class name="testCases.TC_002_LoginTest"></class>
+      <class name="testCases.TC_004_SearchTest"></class>
     </classes>
   </test> 
   

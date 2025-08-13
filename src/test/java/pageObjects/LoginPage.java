@@ -12,16 +12,16 @@ public class LoginPage extends BasePage{
 	}
 	
 	@FindBy(xpath="//input[@id='input-email']")
-	WebElement txtEmailAddress;
+	private WebElement txtEmailAddress;
 	
 	@FindBy(xpath="//input[@id='input-password']")
-	WebElement txtPassword;
+	private WebElement txtPassword;
 	
 	@FindBy(xpath="//input[@value='Login']")
-	WebElement btnLogin;
+	private WebElement btnLogin;
 	
 	@FindBy(xpath="//div[normalize-space()='Warning: No match for E-Mail Address and/or Password.']")
-	WebElement alertInvalidLogin;
+	private WebElement alertInvalidLogin;
 	
 	public void setEmailAddress(String email)
 	{

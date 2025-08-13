@@ -15,13 +15,13 @@ public class HomePage extends BasePage{
 
 	//page elements
 	@FindBy(xpath="//span[text()='My Account']")
-	WebElement lnkMyAccount;
+	private WebElement lnkMyAccount;
 	
 	@FindBy(xpath="//a[text()='Register']")
-	WebElement lnkRegister;
+	private WebElement lnkRegister;
 	
 	@FindBy(xpath="//a[text()='Login']")
-	WebElement lnkLogin;
+	private WebElement lnkLogin;
 	
 	//action methods
 	public void clickMyAccount()

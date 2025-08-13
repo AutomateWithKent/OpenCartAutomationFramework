@@ -79,7 +79,7 @@ public class ExtentReportUtils implements ITestListener{
 		    	test.assignCategory(result.getMethod().getGroups());
 		    	test.log(Status.FAIL, result.getName() + " is failed");
 		    	test.info(result.getThrowable().getMessage());
-		    	/*
+		    	
 		    	try {
 		    		BaseTest baseTest = (BaseTest) result.getInstance();
 		    		
@@ -89,7 +89,7 @@ public class ExtentReportUtils implements ITestListener{
 				} catch (IOException e1) {
 					e1.printStackTrace();
 				}
-				*/
+				
 		  }
 
 	 public void onTestSkipped(ITestResult result) {

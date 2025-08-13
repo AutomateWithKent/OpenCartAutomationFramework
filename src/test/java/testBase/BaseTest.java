@@ -100,20 +100,6 @@ public Properties properties;
 		driver.quit();
 	}
 	
-	public String captureScreen(String fname) throws IOException
-	{
-		String currentDateTime = new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss").format(new Date());
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
-		
-		String filePath = System.getProperty("user.dir") + currentDateTime + "" + ".png";
-		File targetFile = new File(filePath);
-				
-		sourceFile.renameTo(targetFile);
-		
-		return filePath;
-	}	
-	
 	public String captureScreenshot(String tname) throws IOException {
 
 		  String currentDateTime = new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss").format(new Date());
@@ -136,22 +122,24 @@ public Properties properties;
 		    return filePath;
 	}
 }
-		/*
-		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+	
+	/*
+	public String captureScreen(String fname) throws IOException
+	{
+		String currentDateTime = new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss").format(new Date());
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+		
+		String filePath = System.getProperty("user.dir") + currentDateTime + "" + ".png";
+		File targetFile = new File(filePath);
 				
-		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		
-		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
-		File targetFile=new File(targetFilePath);
-		
 		sourceFile.renameTo(targetFile);
-			
-		return targetFilePath;
-
-	}
+		
+		return filePath;
+	}	
 	
 	*/
-		
+	
+
 		 
 

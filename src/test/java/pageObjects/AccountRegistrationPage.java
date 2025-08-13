@@ -15,28 +15,28 @@ public class AccountRegistrationPage extends BasePage{
 	
 	//page elements
 	@FindBy(xpath="//input[@id='input-firstname']")
-	WebElement txtFirstName;
+	private WebElement txtFirstName;
 	
 	@FindBy(xpath="//input[@id='input-lastname']")
-	WebElement txtLastName;
+	private WebElement txtLastName;
 	
 	@FindBy(xpath="//input[@id='input-email']")
-	WebElement txtEmail;
+	private WebElement txtEmail;
 	
 	@FindBy(xpath="//input[@id='input-telephone']")
-	WebElement txtTelephone;
+	private WebElement txtTelephone;
 	
 	@FindBy(xpath="//input[@id='input-password']")
-	WebElement txtPassword;
+	private WebElement txtPassword;
 	
 	@FindBy(xpath="//input[@id='input-confirm']")
-	WebElement txtConfirmPassword;
+	private WebElement txtConfirmPassword;
 	
 	@FindBy(xpath="//input[@name='agree']")
-	WebElement chkPrivacyPolicy;
+	private WebElement chkPrivacyPolicy;
 	
 	@FindBy(xpath="//input[@value='Continue']")
-	WebElement btnContinue;
+	private WebElement btnContinue;
 	
 	//action methods
 	

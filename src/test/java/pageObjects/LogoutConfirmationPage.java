@@ -14,7 +14,7 @@ public class LogoutConfirmationPage extends BasePage{
 	}
 	
 	@FindBy(xpath="//a[text()='Continue']")
-	WebElement btnContinue;
+	private WebElement btnContinue;
 	
 	public void clickContinue()
 	{

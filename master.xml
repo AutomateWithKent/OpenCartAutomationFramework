@@ -11,20 +11,25 @@
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="linux"></parameter>
     <classes>
+    <!--
       <class name="testCases.TC_001_AccountRegistrationTest"></class>
       <class name="testCases.TC_002_LoginTest"></class>
-      <!--<class name="testCases.TC_003_LoginDTT"></class>-->
+      <class name="testCases.TC_003_LoginDTT"></class>-->
+      <class name="testCases.TC_004_SearchTest"></class>
     </classes>
-  </test> <!-- Test -->
+  </test> 
   
+  <!--
     <test thread-count="5" name="LinuxFirefoxTest">
     <parameter name="browser" value="firefox"></parameter>
     <parameter name="os" value="linux"></parameter>
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest"></class>
       <class name="testCases.TC_002_LoginTest"></class>
-      <!--<class name="testCases.TC_003_LoginDTT"></class>-->
+      <class name="testCases.TC_004_SearchTest"></class>
+      <class name="testCases.TC_003_LoginDTT"></class>
     </classes>
-  </test> <!-- Test -->
+  </test> 
+  -->
   
 </suite> <!-- Suite -->
