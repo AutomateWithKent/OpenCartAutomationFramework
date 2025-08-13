@@ -3,7 +3,6 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class MyAccountPage extends BasePage{
@@ -13,25 +12,20 @@ public class MyAccountPage extends BasePage{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//h2[text()='My Account']")
-	private WebElement myAccountHeader;
-	
-	@FindBy(xpath= "//div[@class='list-group']//a[text()='Logout']")
-	private WebElement lnkLogout;
-	
+	private By hdrMyAccountLocator = By.xpath("//h2[text()='My Account']");
+	private By lnkLogoutLocator = By.xpath("//div[@class='list-group']//a[text()='Logout']");
 	private By txtSearchLocator = By.xpath("//input[@name='search']");
-	
-	@FindBy(xpath="//div[@id='search']//button")
-	private WebElement btnSearchProduct;
+	private By btnSearchProductLocator = By.xpath("//div[@id='search']//button");
 	
 	public boolean isMyAccountDisplayed()
 	{
-		waitForElement(myAccountHeader);
-		return (myAccountHeader.isDisplayed());
+		WebElement lnkMyAccount = wait.until(ExpectedConditions.visibilityOfElementLocated(hdrMyAccountLocator));
+		return (lnkMyAccount.isDisplayed());
 	}
 	
 	public void clickLogout()
 	{
+		WebElement lnkLogout = wait.until(ExpectedConditions.elementToBeClickable(lnkLogoutLocator));
 		lnkLogout.click();
 	}
 	
@@ -43,7 +37,7 @@ public class MyAccountPage extends BasePage{
 	
 	public void clickSearch()
 	{
-		waitForElementToBeClickable(btnSearchProduct);
+		WebElement btnSearchProduct = wait.until(ExpectedConditions.elementToBeClickable(btnSearchProductLocator));
 		btnSearchProduct.click();
 	}
 }

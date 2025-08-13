@@ -1,24 +1,22 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class LogoutConfirmationPage extends BasePage{
-	
-	WebDriver driver;
 	
 	public LogoutConfirmationPage(WebDriver driver)
 	{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//a[text()='Continue']")
-	private WebElement btnContinue;
+	private By btnContinueLocator = By.xpath("//a[text()='Continue']");
 	
 	public void clickContinue()
 	{
-		waitForElement(btnContinue);
+		WebElement btnContinue = wait.until(ExpectedConditions.elementToBeClickable(btnContinueLocator));
 		btnContinue.click();
 	}
 	

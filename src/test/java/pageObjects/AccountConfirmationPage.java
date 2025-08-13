@@ -1,8 +1,9 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AccountConfirmationPage extends BasePage{
 	
@@ -11,23 +12,13 @@ public class AccountConfirmationPage extends BasePage{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//div[@id='content']//h1[text()='Your Account Has Been Created!']")
-	private WebElement lblConfirmationMessage;
-	
-	@FindBy(xpath="//a[text()=\"Continue\"]")
-	private WebElement btnContinue;
+	private By hdrAccountConfirmationLocator = By.xpath("//div[@id='content']//h1[text()='Your Account Has Been Created!']");
+	private By btnContinueLocator = By.xpath("//a[text()=\\\"Continue\\\"]");
 	
 	public String getAccountConfirmationMessage()
 	{
-		try 
-		{
-		
-		String accountConfirmationMessage = lblConfirmationMessage.getText();
+		WebElement hdrAccountConfirmation = wait.until(ExpectedConditions.visibilityOfElementLocated(hdrAccountConfirmationLocator));
+		String accountConfirmationMessage = hdrAccountConfirmation.getText();
 		return accountConfirmationMessage;
-		}
-		catch(Exception e)
-			{
-			return e.getMessage();
-			}		
 	}
 }
