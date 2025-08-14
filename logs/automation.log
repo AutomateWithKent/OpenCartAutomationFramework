@@ -1,11 +1,15 @@
-00:27:54.860 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
-00:27:54.951 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
-00:27:55.141 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
-00:27:55.142 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
-00:27:55.217 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: MMwAGje@gmail.com
-00:27:55.280 [main] INFO  testCases.TC_002_LoginTest - Inputting password: aUGQSj8IBj1FBrP
-00:27:55.837 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-00:27:55.838 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-00:27:55.886 [main] INFO  testCases.TC_002_LoginTest - Validating login
-00:27:55.886 [main] INFO  testCases.TC_002_LoginTest - Test passed
-00:27:55.886 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
+09:42:33.415 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+09:42:33.993 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+09:42:33.993 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+09:42:36.998 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+09:42:36.999 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+09:42:37.059 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+09:42:37.259 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
+09:42:37.260 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+09:42:37.346 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: MMwAGje@gmail.com
+09:42:37.439 [main] INFO  testCases.TC_002_LoginTest - Inputting password: aUGQSj8IBj1FBrP
+09:42:37.508 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+09:42:37.509 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+09:42:38.089 [main] INFO  testCases.TC_002_LoginTest - Validating login
+09:42:38.089 [main] INFO  testCases.TC_002_LoginTest - Test passed
+09:42:38.089 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****

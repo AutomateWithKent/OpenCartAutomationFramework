@@ -16,9 +16,6 @@ public class SearchProductPage extends BasePage{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//div[@class='caption']/h4")
-	private List<WebElement> products;
-	
 	private By productLocator = By.xpath("//div[@class='caption']/h4");
 	
 	public List<String> getProducts()
