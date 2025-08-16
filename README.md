@@ -76,7 +76,12 @@ OpenCartAutomationFramework
 - Alternatively, execute via Maven:  
   ```bash
   mvn test -DsuiteXmlFile=master.xml
+---
 
+## 📊 Reports
+- After execution, **ExtentReports** will be automatically generated.  
+- The report will open in **Chrome** once the test execution is complete.
+  
 ---
 
 ## ✨ Features
