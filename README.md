@@ -19,35 +19,37 @@ It is built using **Java, Selenium WebDriver, TestNG, and Maven**, and follows t
 📂 Project Structure
 OpenCartAutomationFramework
 ├── 📂 src
-│ ├── 📂 test
-│ │ ├── 📂 java
-│ │ │ ├── 📂 pageObjects
-│ │ │ │ └── # Page Object Classes
-│ │ │ ├── 📂 testBase
-│ │ │ │ └── # Base Test Class
-│ │ │ ├── 📂 testCases
-│ │ │ │ └── # Test Classes
-│ │ │ └── 📂 utilities
-│ │ │ ├── # DataProviders
-│ │ │ ├── # ExcelUtilities
-│ │ │ ├── # ExtentReportManager
-│ │ │ └── # RandomStringUtils
-│ │ ├── 📂 resources
-│ │ │ ├── 📄 config.properties # Configuration file
-│ │ │ └── 📄 log4j2.xml # Log4j logging configuration
-│ │ ├── 📂 testData
-│ │ │ └── # Contains test data for data-driven testing
-│ │ ├── 📂 reports
-│ │ │ └── # ExtentReports output
-│ │ └── 📂 screenshots
-│ │ └── # Screenshots captured on failed tests
-├── 📄 DataDriven.xml # TestNG suite for data-driven tests
-├── 📄 crossbrowser.xml # TestNG suite for cross-browser testing
-├── 📄 grid-docker.xml # TestNG suite for running tests on Docker containers (remote)
-├── 📄 groupings.xml # TestNG suite for grouped tests (sanity, regression, master, DDT)
-├── 📄 master.xml # Master TestNG suite to execute all test classes
-├── 📄 pom.xml # Maven configuration & dependencies
-└── 📄 README.md # Project documentation
+│   ├── 📂 test
+│   │   ├── 📂 java
+│   │   │   ├── 📂 pageObjects
+│   │   │   │   └── # Page Object Classes
+│   │   │   ├── 📂 testBase
+│   │   │   │   └── # Base Test Class
+│   │   │   ├── 📂 testCases
+│   │   │   │   └── # Test Classes
+│   │   │   └── 📂 utilities
+│   │   │       ├── # DataProviders
+│   │   │       ├── # ExcelUtilities
+│   │   │       ├── # ExtentReportManager
+│   │   │       └── # RandomStringUtils
+│   │   ├── 📂 resources
+│   │   │   ├── 📄 config.properties   # Configuration file
+│   │   │   └── 📄 log4j2.xml          # Log4j logging configuration
+│   │   ├── 📂 testData
+│   │   │   └── # Contains test data for data-driven testing
+│   │   ├── 📂 reports 
+│   │   │   └── # ExtentReports output
+│   │   └── 📂 screenshots
+│   │       └── # Screenshots captured on failed tests
+├── 📄 DataDriven.xml        # TestNG suite for data-driven tests
+├── 📄 crossbrowser.xml      # TestNG suite for cross-browser testing
+├── 📄 grid-docker.xml       # TestNG suite for running tests on Docker containers (remote)
+├── 📄 groupings.xml         # TestNG suite for grouped tests (sanity, regression, master, DDT)
+├── 📄 master.xml            # Master TestNG suite to execute all test classes
+├── 📄 pom.xml               # Maven configuration & dependencies
+└── 📄 README.md             # Project documentation
+
+
 
 ---
 
