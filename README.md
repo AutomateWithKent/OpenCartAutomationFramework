@@ -59,7 +59,7 @@ Before setting up the project, ensure you have the following installed:
 - **JDK 21+** (make sure `JAVA_HOME` is set)  
 - **Maven 3.8+**  
 - **Git**  
-- An IDE such as **Eclipse** or **IntelliJ IDEA**  
+- An IDE such as **Eclipse** or **IntelliJ**  
 - A modern browser (Chrome, Edge, Firefox)  
 - Matching browser drivers (ChromeDriver, GeckoDriver, etc.) for Selenium  
 
@@ -71,7 +71,7 @@ Before setting up the project, ensure you have the following installed:
    ```bash
    git clone https://github.com/AutomateWithKent/OpenCartAutomationFramework.git
    ```
-2. Import the project into **Eclipse** or **IntelliJ IDEA** as a Maven project.  
+2. Import the project into **Eclipse** or **IntelliJ** as a Maven project.  
 3. Run Maven to install dependencies:
    ```bash
    mvn clean install
