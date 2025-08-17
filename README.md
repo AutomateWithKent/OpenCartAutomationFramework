@@ -51,6 +51,17 @@ OpenCartAutomationFramework
 ├── 📄 pom.xml               # Maven configuration & dependencies
 └── 📄 README.md             # Project documentation
 ```
+---
+
+## 📋 Prerequisites
+Before setting up the project, ensure you have the following installed:  
+
+- **JDK 21+** (make sure `JAVA_HOME` is set)  
+- **Maven 3.8+**  
+- **Git**  
+- An IDE such as **Eclipse** or **IntelliJ IDEA**  
+- A modern browser (Chrome, Edge, Firefox)  
+- Matching browser drivers (ChromeDriver, GeckoDriver, etc.) for Selenium  
 
 ---
 
