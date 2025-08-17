@@ -4,16 +4,24 @@
   <listeners>
     <listener class-name="utilities.ExtentReportUtils"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="LinuxChromeTest(failed)">
     <parameter name="os" value="linux"/>
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="master"/>
-        <include name="sanity"/>
-      </run>
-    </groups>
     <classes>
+      <class name="testCases.TC_002_LoginTest">
+        <methods>
+          <include name="verify_login"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <methods>
+          <include name="testRegisterAccount"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
       <class name="testCases.TC_004_SearchTest">
         <methods>
           <include name="testSearchProduct"/>
@@ -22,5 +30,5 @@
         </methods>
       </class> <!-- testCases.TC_004_SearchTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- LinuxChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

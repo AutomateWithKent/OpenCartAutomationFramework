@@ -1,0 +1,56 @@
+22:25:52.105 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: SG9cIWcEaRwPu7X
+22:25:52.206 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+22:25:52.253 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+22:25:52.860 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+22:25:52.898 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+22:25:52.899 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+22:25:54.199 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+22:25:54.199 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+22:25:54.254 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+22:25:54.417 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
+22:25:54.418 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+22:25:54.471 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: MMwAGje@gmail.com
+22:25:54.521 [main] INFO  testCases.TC_002_LoginTest - Inputting password: aUGQSj8IBj1FBrP
+22:25:54.571 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+22:25:54.571 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+22:25:55.244 [main] INFO  testCases.TC_002_LoginTest - Validating login
+22:25:55.245 [main] INFO  testCases.TC_002_LoginTest - Test passed
+22:25:55.245 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
+22:26:21.368 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
+22:26:21.524 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml
+
+22:26:53.420 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
+22:26:53.579 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml
+
+22:26:55.510 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+22:26:55.510 [main] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
+22:26:55.512 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
+22:26:55.630 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+22:26:55.918 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+22:26:55.920 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+22:26:56.182 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: wTBVulJ@gmail.com
+22:26:56.259 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: vYJMdCf1vfcz11f
+22:26:56.426 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+22:26:56.516 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+22:26:57.199 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+22:26:57.250 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+22:26:57.251 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+22:26:58.162 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+22:26:58.162 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+22:26:58.256 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+22:26:58.480 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
+22:26:58.481 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+22:26:58.575 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: MMwAGje@gmail.com
+22:26:58.650 [main] INFO  testCases.TC_002_LoginTest - Inputting password: aUGQSj8IBj1FBrP
+22:26:58.732 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+22:26:58.733 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+22:26:59.320 [main] INFO  testCases.TC_002_LoginTest - Validating login
+22:26:59.321 [main] INFO  testCases.TC_002_LoginTest - Test passed
+22:26:59.321 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
+22:27:11.856 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
+22:27:12.010 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml
+
+22:27:13.342 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
