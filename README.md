@@ -102,30 +102,22 @@ mvn clean test
 ```
 ---
 
-✨ Features
-🛠 Framework Features
+## ✨ Features
 
-Page Object Model (POM) for better code maintainability
+### 🛠 Framework Features
+- Page Object Model (POM) for better code maintainability
+- Data-Driven Testing using Apache POI for reading/writing Excel files
+- Cross-Browser and Parallel Testing support with TestNG
+- Easy configuration through `config.properties`
+- Scalable for Regression, Smoke, and Sanity test suites
 
-Data-Driven Testing using Apache POI for reading/writing Excel files
+### 📊 Reporting Features
+- Centralized Reporting with ExtentReports
+- Automatic Screenshot capture on test failures
+- Auto-generation of HTML Reports after test execution
+- Report auto-launch in Chrome upon test completion
 
-Cross-Browser and Parallel Testing support with TestNG
+---
 
-Easy configuration through config.properties
-
-Scalable for Regression, Smoke, and Sanity test suites
-
-📊 Reporting Features
-
-Centralized Reporting with ExtentReports
-
-Automatic Screenshot capture on test failures
-
-Auto-generation of HTML Reports after test execution
-
-Report auto-launch in Chrome upon test completion
-
-👨‍💻 Author
-
-AutomateWithKent
-
+## 👨‍💻 Author
+- [AutomateWithKent](https://github.com/AutomateWithKent)
