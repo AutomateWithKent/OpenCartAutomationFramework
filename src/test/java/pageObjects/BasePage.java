@@ -1,10 +1,7 @@
 package pageObjects;
 
 import java.time.Duration;
-import java.util.List;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
@@ -19,20 +16,4 @@ public class BasePage {
 		//PageFactory.initElements(driver, this);		
 	}
 	
-	/*
-	public void waitForElement(WebElement element)
-	{
-		wait.until(ExpectedConditions.visibilityOf(element));
-	}
-	
-	public void waitForElementToBeClickable(WebElement element)
-	{
-		wait.until(ExpectedConditions.elementToBeClickable(element));
-	}
-	
-	public void waitForVisibilityOfAllElement(List<WebElement> elements)
-	{
-		wait.until(ExpectedConditions.visibilityOfAllElements(elements));
-	}
-	*/
 }

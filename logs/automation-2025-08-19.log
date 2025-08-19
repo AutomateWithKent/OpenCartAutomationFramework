@@ -1,55 +1,34 @@
-20:16:10.278 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
-20:16:10.627 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
-20:16:10.628 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
-20:16:10.806 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: EqAmQTf@gmail.com
-20:16:10.853 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: RR0doh6iojFgEQk
-20:16:10.950 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
-20:16:10.999 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
-20:16:11.756 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
-20:16:11.783 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
-20:16:11.783 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
-20:16:12.973 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
-20:16:12.973 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
-20:16:13.040 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
-20:16:13.425 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
-20:16:13.426 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
-20:16:13.493 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
-20:16:13.541 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
-20:16:14.226 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-20:16:14.227 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-20:16:14.244 [main] INFO  testCases.TC_002_LoginTest - Validating login
-20:16:14.244 [main] INFO  testCases.TC_002_LoginTest - Test passed
-20:16:14.244 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
-20:17:59.190 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
-20:17:59.349 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml
-
-20:18:00.829 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
-20:18:00.830 [main] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
-20:18:00.833 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
-20:18:00.902 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
-20:18:01.185 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
-20:18:01.186 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
-20:18:01.369 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: dMAymzJ@gmail.com
-20:18:01.420 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: KkBg5vGdldEJ3f2
-20:18:01.526 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
-20:18:01.589 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
-20:18:02.383 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
-20:18:02.410 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
-20:18:02.412 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
-20:18:03.756 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
-20:18:03.756 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
-20:18:03.841 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
-20:18:04.338 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
-20:18:04.339 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
-20:18:04.414 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
-20:18:04.461 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
-20:18:04.507 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-20:18:04.508 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-20:18:05.745 [main] INFO  testCases.TC_002_LoginTest - Validating login
-20:18:05.746 [main] INFO  testCases.TC_002_LoginTest - Test passed
-20:18:05.746 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
-20:19:06.000 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
-20:19:06.158 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml
-
+22:52:13.036 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:52:13.039 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+22:52:13.043 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:52:13.043 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+22:52:13.043 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+22:52:13.044 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+22:52:13.044 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:52:13.046 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+22:52:13.050 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:52:13.050 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+22:52:13.051 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+22:52:13.051 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+22:52:13.051 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:52:13.053 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+22:52:13.057 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:52:13.057 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+22:52:13.057 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+22:52:13.057 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+22:52:13.057 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:52:13.059 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+22:52:13.063 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:52:13.063 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+22:52:13.063 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+22:52:13.064 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+22:52:13.064 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:52:13.066 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+22:52:13.072 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:52:13.072 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+22:52:13.073 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+22:52:13.073 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+22:52:13.073 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:52:13.075 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+22:52:13.082 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:52:13.082 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels

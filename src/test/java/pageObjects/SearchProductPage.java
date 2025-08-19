@@ -25,6 +25,7 @@ public class SearchProductPage extends BasePage{
 	}
 	
 	private By addToCartAlertMessageLocator = By.xpath("//div[contains(@class,'alert alert-success alert-dismissible')]");
+	private By lnkShoppingCart = By.xpath("//div[@id='top-links']//span[normalize-space()='Shopping Cart']");
 	
 	public List<String> getProducts()
 	{
@@ -70,5 +71,11 @@ public class SearchProductPage extends BasePage{
 		{
 			return e.getMessage();
 		}
+	}
+	
+	public void clickShoppingCart()
+	{
+		WebElement shoppingCart = wait.until(ExpectedConditions.visibilityOfElementLocated(lnkShoppingCart));
+		shoppingCart.click();
 	}
 }

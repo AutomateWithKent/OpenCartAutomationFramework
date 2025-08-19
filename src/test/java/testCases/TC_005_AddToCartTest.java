@@ -1,5 +1,7 @@
 package testCases;
 
+import java.util.List;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -7,6 +9,7 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 import pageObjects.SearchProductPage;
+import pageObjects.ShoppingCartPage;
 import testBase.BaseTest;
 
 public class TC_005_AddToCartTest extends BaseTest{
@@ -33,9 +36,24 @@ public class TC_005_AddToCartTest extends BaseTest{
 		String actualAlertMessage = searchProduct.getAlertAddToCartMessage();
 		
 		String expectedAlertMessage = "Success: You have added "+properties.getProperty("productSearch")+" to your shopping cart!";
+		searchProduct.clickShoppingCart();
 		
 		Assert.assertTrue(actualAlertMessage.contains(expectedAlertMessage));
-	
+		
+		ShoppingCartPage cart = new ShoppingCartPage(driver);
+		List<String> products = cart.getProductInCart();
+		boolean productIsFound = false;
+		for(String product : products)
+		{
+			if(product.equalsIgnoreCase(properties.getProperty("productSearch")))
+			{
+				productIsFound = true;
+				break;
+			}
+		}
+		
+		Assert.assertTrue(productIsFound);
+		
 		/*
 		boolean alertConfirmationIsDisplayed = searchProduct.alertAddToCartIsDisplayed();
 	
