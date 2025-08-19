@@ -88,31 +88,35 @@ Before setting up the project, ensure you have the following installed:
 You can run the tests in either of the following ways:
 
 ### 1. From your IDE
-- Open any TestNG XML file (`master.xml`, `crossbrowser.xml`, `groupings.xml`, etc.)
+- Open any TestNG XML file (`master.xml`, `crossbrowser.xml`, `groupings.xml`, etc.).
 - Run it directly using your IDE's TestNG runner.
 
 ### 2. Via Maven
-``bash
+```bash
 # Open the command prompt
 # Navigate to the project root (where the pom.xml is located)
 cd /path/to/project
 
 # Run tests
 mvn clean test
-``
----
-## ✨ Features
-- Page Object Model (POM) for better code maintainability  
-- Data-Driven Testing using **Apache POI** for reading/writing Excel files  
-- Cross-Browser and Parallel Testing support with TestNG  
-- Easy configuration through `config.properties`  
-- Scalable for **Regression, Smoke, and Sanity** test suites  
-- Centralized Reporting with **ExtentReports**  
-- Automatic Screenshot capture on test failures  
-- **Auto-generation of HTML Reports** after test execution  
-- **Report auto-launch in Chrome** upon test completion  
+✨ Features
+Page Object Model (POM) for better code maintainability
 
----
+Data-Driven Testing using Apache POI for reading/writing Excel files
 
-## 👨‍💻 Author
-- [AutomateWithKent](https://github.com/AutomateWithKent)
+Cross-Browser and Parallel Testing support with TestNG
+
+Easy configuration through config.properties
+
+Scalable for Regression, Smoke, and Sanity test suites
+
+Centralized Reporting with ExtentReports
+
+Automatic Screenshot capture on test failures
+
+Auto-generation of HTML Reports after test execution
+
+Report auto-launch in Chrome upon test completion
+
+👨‍💻 Author
+AutomateWithKent
