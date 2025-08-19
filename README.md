@@ -92,16 +92,15 @@ You can run the tests in either of the following ways:
 - Run it directly using your IDE's TestNG runner.
 
 ### 2. Via Maven
-```bash
+``bash
 # Open the command prompt
 # Navigate to the project root (where the pom.xml is located)
 cd /path/to/project
 
 # Run tests
 mvn clean test
-  
+``
 ---
-
 ## ✨ Features
 - Page Object Model (POM) for better code maintainability  
 - Data-Driven Testing using **Apache POI** for reading/writing Excel files  
