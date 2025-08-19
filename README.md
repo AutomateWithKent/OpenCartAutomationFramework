@@ -77,21 +77,28 @@ Before setting up the project, ensure you have the following installed:
    mvn clean install
    ```
 4. Configure the `config.properties` file with:
-   - `email`  
-   - `password`  
+   - `email – Your login email.`  
+   - `password - Your account password.`
+   - `productSearch - The product name you want to search for in tests.`
 
 ---
 
 ## ▶️ Running Tests
-- Run any of the TestNG XML files (`master.xml`, `crossbrowser.xml`, `groupings.xml`, etc.) directly from your IDE.  
-- Alternatively, execute via Maven:  
-  ```bash
-  mvn test -DsuiteXmlFile=master.xml
----
 
-## 📊 Reports
-- After execution, **ExtentReports** will be automatically generated.  
-- The report will open in **Chrome** once the test execution is complete.
+You can run the tests in either of the following ways:
+
+### 1. From your IDE
+- Open any TestNG XML file (`master.xml`, `crossbrowser.xml`, `groupings.xml`, etc.)
+- Run it directly using your IDE's TestNG runner.
+
+### 2. Via Maven
+```bash
+# Open the command prompt
+# Navigate to the project root (where the pom.xml is located)
+cd /path/to/project
+
+# Run tests
+mvn clean test
   
 ---
 
