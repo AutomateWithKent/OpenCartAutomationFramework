@@ -31,7 +31,7 @@ public class MyAccountPage extends BasePage{
 	
 	public void setProduct(String product)
 	{
-		WebElement txtSearch = wait.until(ExpectedConditions.elementToBeClickable(txtSearchLocator));
+		WebElement txtSearch = wait.until(ExpectedConditions.visibilityOfElementLocated(txtSearchLocator));
 		txtSearch.sendKeys(product);
 	}
 	

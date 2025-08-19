@@ -28,6 +28,8 @@ public class SearchProductPage extends BasePage{
 	
 	public List<String> getProducts()
 	{
+		wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(productLocator, 0));
+		
 		List<WebElement> productElements = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(productLocator));
 		
 		List<String> products = new ArrayList<>();
@@ -58,7 +60,7 @@ public class SearchProductPage extends BasePage{
 		}
 	}
 	
-	public String getAlertAddToCardMessage()
+	public String getAlertAddToCartMessage()
 	{
 		try {
 		String alertMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(addToCartAlertMessageLocator)).getText();

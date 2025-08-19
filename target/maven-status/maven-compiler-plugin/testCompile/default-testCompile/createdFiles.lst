@@ -1,7 +1,10 @@
 testBase\BaseTest.class
+testCases\TC_004_SearchTest.class
 pageObjects\HomePage.class
 testCases\TC_003_LoginDTT.class
 pageObjects\MyAccountPage.class
+pageObjects\SearchProductPage.class
+testCases\TC_005_AddToCartTest.class
 pageObjects\AccountRegistrationPage.class
 utilities\RandomStringUtils.class
 utilities\ExcelUtils.class

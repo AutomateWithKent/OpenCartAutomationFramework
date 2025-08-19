@@ -1,7 +1,25 @@
-16:07:08.652 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
-16:07:08.722 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
-16:07:08.777 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-16:07:08.779 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-16:07:10.092 [main] INFO  testCases.TC_002_LoginTest - Validating login
-16:07:10.092 [main] INFO  testCases.TC_002_LoginTest - Test passed
-16:07:10.092 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
+20:19:07.665 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+20:19:07.668 [main] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
+20:19:07.671 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
+20:19:07.747 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+20:19:07.974 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+20:19:07.975 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+20:19:08.146 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: UxYNcFx@gmail.com
+20:19:08.194 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: EADMZgZxg8fS8RJ
+20:19:08.299 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+20:19:08.349 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+20:19:09.455 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+20:19:09.494 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+20:19:09.494 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+20:19:10.744 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+20:19:10.745 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+20:19:10.819 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+20:19:11.000 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
+20:19:11.001 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+20:19:11.057 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
+20:19:11.108 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
+20:19:11.160 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+20:19:11.161 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+20:19:11.740 [main] INFO  testCases.TC_002_LoginTest - Validating login
+20:19:11.740 [main] INFO  testCases.TC_002_LoginTest - Test passed
+20:19:11.740 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****

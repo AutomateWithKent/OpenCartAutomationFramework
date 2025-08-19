@@ -29,17 +29,17 @@ public class TC_005_AddToCartTest extends BaseTest{
 		
 		SearchProductPage searchProduct = new SearchProductPage(driver);
 		searchProduct.clickAddToCart(properties.getProperty("productSearch"));
+		
+		String actualAlertMessage = searchProduct.getAlertAddToCartMessage();
+		
+		String expectedAlertMessage = "Success: You have added "+properties.getProperty("productSearch")+" to your shopping cart!";
+		
+		Assert.assertTrue(actualAlertMessage.contains(expectedAlertMessage));
+	
+		/*
 		boolean alertConfirmationIsDisplayed = searchProduct.alertAddToCartIsDisplayed();
 	
 		Assert.assertTrue(alertConfirmationIsDisplayed);
-		
-		
-		/*
-		String expectedAlertMessage = "Success: You have added iMac to your shopping cart!";
-		String actualAlertMessage = searchProduct.getAlertAddToCardMessage();
-		System.out.println(actualAlertMessage);
-		
-		Assert.assertEquals(expectedAlertMessage, actualAlertMessage);
 		*/
 	}
 	
