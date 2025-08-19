@@ -18,6 +18,12 @@ public class SearchProductPage extends BasePage{
 	
 	private By productLocator = By.xpath("//div[@class='caption']/h4");
 	
+	private By addToCartLocator(String productName)
+	{
+		productName = productName.toLowerCase();
+		return By.xpath("//a[translate(normalize-space(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='"+productName+"']/ancestor::div[@class='product-thumb']//span[normalize-space()='Add to Cart']");
+	}
+	
 	public List<String> getProducts()
 	{
 		List<WebElement> productElements = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(productLocator));
@@ -29,5 +35,11 @@ public class SearchProductPage extends BasePage{
 		}
 		return products;
 	
-		}
+	}
+	
+	public void clickAddToCart(String productName)
+	{
+		WebElement addToCart = wait.until(ExpectedConditions.elementToBeClickable(addToCartLocator(productName)));
+		addToCart.click();
+	}
 }

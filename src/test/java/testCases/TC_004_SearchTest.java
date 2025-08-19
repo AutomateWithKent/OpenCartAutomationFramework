@@ -31,7 +31,7 @@ public class TC_004_SearchTest extends BaseTest{
 		accountPage.clickSearch();
 		
 		SearchProductPage searchProduct = new SearchProductPage(driver);
-	
+		
 		List<String> products = searchProduct.getProducts();
 		int totalProductSearchResult = products.size();
 		int totalProductMatched = 0;
