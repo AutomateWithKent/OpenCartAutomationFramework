@@ -1,5 +1,7 @@
-14:50:07.947 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-14:50:07.953 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-14:50:09.727 [main] INFO  testCases.TC_002_LoginTest - Validating login
-14:50:09.727 [main] INFO  testCases.TC_002_LoginTest - Test passed
-14:50:09.727 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
+16:07:08.652 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
+16:07:08.722 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
+16:07:08.777 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+16:07:08.779 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+16:07:10.092 [main] INFO  testCases.TC_002_LoginTest - Validating login
+16:07:10.092 [main] INFO  testCases.TC_002_LoginTest - Test passed
+16:07:10.092 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****

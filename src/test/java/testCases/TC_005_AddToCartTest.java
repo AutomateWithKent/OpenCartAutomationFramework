@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
@@ -28,6 +29,18 @@ public class TC_005_AddToCartTest extends BaseTest{
 		
 		SearchProductPage searchProduct = new SearchProductPage(driver);
 		searchProduct.clickAddToCart(properties.getProperty("productSearch"));
+		boolean alertConfirmationIsDisplayed = searchProduct.alertAddToCartIsDisplayed();
+	
+		Assert.assertTrue(alertConfirmationIsDisplayed);
+		
+		
+		/*
+		String expectedAlertMessage = "Success: You have added iMac to your shopping cart!";
+		String actualAlertMessage = searchProduct.getAlertAddToCardMessage();
+		System.out.println(actualAlertMessage);
+		
+		Assert.assertEquals(expectedAlertMessage, actualAlertMessage);
+		*/
 	}
 	
 }

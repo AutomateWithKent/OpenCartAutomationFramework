@@ -8,27 +8,13 @@
     <parameter name="os" value="linux"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_002_LoginTest">
+      <class name="testCases.TC_005_AddToCartTest">
         <methods>
-          <include name="verify_login"/>
+          <include name="testAddToCart"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testCases.TC_002_LoginTest -->
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <methods>
-          <include name="testRegisterAccount"/>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
-      <class name="testCases.TC_004_SearchTest">
-        <methods>
-          <include name="testSearchProduct"/>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC_004_SearchTest -->
+      </class> <!-- testCases.TC_005_AddToCartTest -->
     </classes>
   </test> <!-- LinuxChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

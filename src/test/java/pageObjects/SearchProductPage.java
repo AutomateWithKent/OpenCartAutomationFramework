@@ -24,6 +24,8 @@ public class SearchProductPage extends BasePage{
 		return By.xpath("//a[translate(normalize-space(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='"+productName+"']/ancestor::div[@class='product-thumb']//span[normalize-space()='Add to Cart']");
 	}
 	
+	private By addToCartAlertMessageLocator = By.xpath("//div[contains(@class,'alert alert-success alert-dismissible')]");
+	
 	public List<String> getProducts()
 	{
 		List<WebElement> productElements = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(productLocator));
@@ -41,5 +43,30 @@ public class SearchProductPage extends BasePage{
 	{
 		WebElement addToCart = wait.until(ExpectedConditions.elementToBeClickable(addToCartLocator(productName)));
 		addToCart.click();
+	}
+	
+	public boolean alertAddToCartIsDisplayed()
+	{
+		try {
+		WebElement alert = wait.until(ExpectedConditions.visibilityOfElementLocated(addToCartAlertMessageLocator));
+		return true;
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getStackTrace());
+			return false;
+		}
+	}
+	
+	public String getAlertAddToCardMessage()
+	{
+		try {
+		String alertMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(addToCartAlertMessageLocator)).getText();
+		return alertMessage;
+		}
+		catch(Exception e)
+		{
+			return e.getMessage();
+		}
 	}
 }
