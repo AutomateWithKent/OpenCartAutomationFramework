@@ -71,12 +71,22 @@ Before setting up the project, ensure you have the following installed:
    ```bash
    git clone https://github.com/AutomateWithKent/OpenCartAutomationFramework.git
    ```
-2. Import the project into **Eclipse** or **IntelliJ** as a Maven project.  
-3. Run Maven to install dependencies:
+2. Import the project into **Eclipse** or **IntelliJ** as a Maven project.
+3. Configure Java SE 21 in your IDE
+
+**Eclipse:**
+- Right-click on the project → **Properties** → **Java Build Path** → **Libraries** tab → **Add Library** → **JRE System Library** → Select **JavaSE-21**.  
+- Also go to **Properties → Java Compiler** and set **Compiler compliance level** to **21**.
+
+**IntelliJ:**
+- Go to **File → Project Structure → Project**.  
+- Set **Project SDK** to **Java 21**.  
+- Under **Modules → Dependencies**, make sure the SDK is set to **Java 21**.
+4. Run Maven to install dependencies:
    ```bash
    mvn clean install
    ```
-4. Configure the `config.properties` file with:
+5. Configure the `config.properties` file with:
    - `email – Your login email.`  
    - `password - Your account password.`
    - `productSearch - The product name you want to search for in tests.`
