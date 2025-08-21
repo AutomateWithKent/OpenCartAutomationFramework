@@ -10,7 +10,10 @@ C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\utilit
 C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\testCases\TC_005_AddToCartTest.java
 C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\pageObjects\AccountConfirmationPage.java
 C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\testCases\TC_003_LoginDTT.java
+C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\pageObjects\ProductComparisonPage.java
 C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\pageObjects\AccountRegistrationPage.java
+C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\pageObjects\ShoppingCartPage.java
+C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\testCases\TC_006_ProductCompareTest.java
 C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\pageObjects\LoginPage.java
 C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\pageObjects\LogoutConfirmationPage.java
 C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\src\test\java\pageObjects\MyAccountPage.java

@@ -1,9 +1,11 @@
 testBase\BaseTest.class
 testCases\TC_004_SearchTest.class
 pageObjects\HomePage.class
+pageObjects\ProductComparisonPage.class
 testCases\TC_003_LoginDTT.class
 pageObjects\MyAccountPage.class
 pageObjects\SearchProductPage.class
+testCases\TC_006_ProductCompareTest.class
 testCases\TC_005_AddToCartTest.class
 pageObjects\AccountRegistrationPage.class
 utilities\RandomStringUtils.class
@@ -11,6 +13,7 @@ utilities\ExcelUtils.class
 utilities\ExtentReportUtils.class
 pageObjects\AccountConfirmationPage.class
 pageObjects\LoginPage.class
+pageObjects\ShoppingCartPage.class
 pageObjects\BasePage.class
 utilities\ExtentReportManager.class
 testCases\TC_001_AccountRegistrationTest.class

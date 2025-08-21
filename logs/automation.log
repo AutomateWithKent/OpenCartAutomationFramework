@@ -1,37 +1,40 @@
-22:52:13.082 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
-22:52:13.084 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
-22:52:13.084 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-22:52:13.086 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-22:52:13.090 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-22:52:13.090 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-22:52:13.091 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
-22:52:13.091 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
-22:52:13.091 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-22:52:13.094 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-22:52:13.098 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-22:52:13.098 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-22:52:13.098 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
-22:52:13.100 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
-22:52:13.100 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-22:52:13.102 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-22:52:13.111 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:14.676 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:14.679 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:16.024 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:16.026 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:17.432 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:17.435 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:18.787 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:18.791 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:20.287 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:20.289 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:21.734 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:21.737 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:23.484 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:23.489 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:24.851 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:24.852 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:26.258 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:26.259 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
-22:52:27.681 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
-22:52:27.683 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
+00:22:56.368 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+00:22:56.373 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+00:22:57.322 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+00:22:57.322 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+00:22:57.431 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+00:22:57.709 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
+00:22:57.710 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+00:22:57.812 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
+00:22:57.899 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
+00:22:57.994 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+00:22:57.996 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+00:22:59.028 [main] INFO  testCases.TC_002_LoginTest - Validating login
+00:22:59.029 [main] INFO  testCases.TC_002_LoginTest - Test passed
+00:22:59.030 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
+00:23:20.032 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
+00:23:21.423 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+00:23:21.423 [main] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
+00:23:21.427 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
+00:23:21.527 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+00:23:21.801 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+00:23:21.803 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+00:23:22.102 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: XIHiMVg@gmail.com
+00:23:22.167 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: NkwbIK91ytfbdBa
+00:23:22.307 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+00:23:22.382 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+00:23:23.274 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+00:23:23.326 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+00:23:23.326 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+00:23:24.263 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+00:23:24.263 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+00:23:24.357 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+00:23:24.589 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
+00:23:24.590 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+00:23:24.681 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
+00:23:24.763 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
+00:23:24.843 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+00:23:24.845 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+00:23:25.620 [main] INFO  testCases.TC_002_LoginTest - Validating login
+00:23:25.621 [main] INFO  testCases.TC_002_LoginTest - Test passed
+00:23:25.621 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****

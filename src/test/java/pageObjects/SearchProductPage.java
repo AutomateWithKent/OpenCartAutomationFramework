@@ -24,8 +24,15 @@ public class SearchProductPage extends BasePage{
 		return By.xpath("//a[translate(normalize-space(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='"+productName+"']/ancestor::div[@class='product-thumb']//span[normalize-space()='Add to Cart']");
 	}
 	
+	private By compareProductLocator(String productName)
+	{
+		productName = productName.toLowerCase();
+		return By.xpath("//h4/a[translate(normalize-space(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')= '"+productName+"' ]/ancestor::div[@class='product-thumb']//button[@data-original-title='Compare this Product']");
+	}
 	private By addToCartAlertMessageLocator = By.xpath("//div[contains(@class,'alert alert-success alert-dismissible')]");
-	private By lnkShoppingCart = By.xpath("//div[@id='top-links']//span[normalize-space()='Shopping Cart']");
+	private By lnkShoppingCart = By.xpath("//div[contains(@class, 'alert-success')]//a[normalize-space()='shopping cart']");
+	private By lnkProductComparison = By.xpath("//div[contains(@class, 'alert-success')]//a[normalize-space()='product comparison']");
+	
 	
 	public List<String> getProducts()
 	{
@@ -39,13 +46,18 @@ public class SearchProductPage extends BasePage{
 			products.add(product.getText());
 		}
 		return products;
-	
 	}
 	
 	public void clickAddToCart(String productName)
 	{
 		WebElement addToCart = wait.until(ExpectedConditions.elementToBeClickable(addToCartLocator(productName)));
 		addToCart.click();
+	}
+	
+	public void clickCompareThisProduct(String productName)
+	{
+		WebElement btnCompareProduct = wait.until(ExpectedConditions.elementToBeClickable(compareProductLocator(productName)));
+		btnCompareProduct.click();
 	}
 	
 	public boolean alertAddToCartIsDisplayed()
@@ -75,7 +87,20 @@ public class SearchProductPage extends BasePage{
 	
 	public void clickShoppingCart()
 	{
-		WebElement shoppingCart = wait.until(ExpectedConditions.visibilityOfElementLocated(lnkShoppingCart));
+		/*wait.until(ExpectedConditions.visibilityOfElementLocated(lnkShoppingCart));
+		WebElement shoppingCart = wait.until(ExpectedConditions.elementToBeClickable(lnkShoppingCart));
 		shoppingCart.click();
+		*/
+		safeClick(lnkShoppingCart,10,2);
+	}
+	
+	public void clickProductComparisonLink()
+	{
+		/*
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(lnkProductComparison));
+		WebElement productComparison = wait.until(ExpectedConditions.elementToBeClickable(lnkProductComparison));
+		productComparison.click();
+		*/
+		safeClick(lnkProductComparison,10,2);
 	}
 }

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+
 public class MyAccountPage extends BasePage{
 	
 	public MyAccountPage(WebDriver driver)
@@ -14,7 +15,7 @@ public class MyAccountPage extends BasePage{
 	
 	private By hdrMyAccountLocator = By.xpath("//h2[text()='My Account']");
 	private By lnkLogoutLocator = By.xpath("//div[@class='list-group']//a[text()='Logout']");
-	private By txtSearchLocator = By.xpath("//input[@name='search']");
+	private By txtSearchLocator = By.xpath("//input[@placeholder='Search']");
 	private By btnSearchProductLocator = By.xpath("//div[@id='search']//button");
 	
 	public boolean isMyAccountDisplayed()
@@ -31,7 +32,8 @@ public class MyAccountPage extends BasePage{
 	
 	public void setProduct(String product)
 	{
-		WebElement txtSearch = wait.until(ExpectedConditions.visibilityOfElementLocated(txtSearchLocator));
+		wait.until(ExpectedConditions.presenceOfElementLocated(txtSearchLocator));
+		WebElement txtSearch = driver.findElement(txtSearchLocator);
 		txtSearch.sendKeys(product);
 	}
 	
