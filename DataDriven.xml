@@ -5,7 +5,9 @@
 
 <groups>
 	<run>
-		<include name="datadriven"></include>
+		<include name="datadriven"></include> <!--
+      used grouping for datadriver
+    -->
 	</run>
 </groups>
 
@@ -13,15 +15,18 @@
 	<listener class-name="utilities.ExtentReportUtils"></listener>
 </listeners>
 
-  <test name="ChromeTest">
+  <test name="DataDrivenTest">
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="Windows 11"></parameter>
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest"></class>
       <class name="testCases.TC_002_LoginTest"></class>
       <class name="testCases.TC_003_LoginDTT"></class>
+      <class name="testCases.TC_004_SearchTest"></class>
+      <class name="testCases.TC_005_AddToCartTest"></class>
+      <class name="testCases.TC_006_ProductCompareTest"></class>
     </classes>
-  </test> <!-- Test -->
+  </test>
   
   <!--
   

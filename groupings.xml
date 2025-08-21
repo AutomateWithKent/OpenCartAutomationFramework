@@ -5,9 +5,9 @@
 
 <groups>
 	<run>
-		<include name="master"></include>
-		<include name="sanity"></include>
-		<include name="sanity"></include>
+		<!--<include name="master"></include>-->
+		<!--<include name="sanity"></include>-->
+		<include name="regression"></include>
 	</run>
 </groups>
 
@@ -24,6 +24,7 @@
       <class name="testCases.TC_003_LoginDTT"></class>
       <class name="testCases.TC_004_SearchTest"></class>
       <class name="testCases.TC_005_AddToCartTest"></class>
+      <class name="testCases.TC_006_ProductCompareTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
