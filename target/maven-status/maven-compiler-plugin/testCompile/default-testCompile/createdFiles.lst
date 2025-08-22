@@ -15,7 +15,6 @@ pageObjects\AccountConfirmationPage.class
 pageObjects\LoginPage.class
 pageObjects\ShoppingCartPage.class
 pageObjects\BasePage.class
-utilities\ExtentReportManager.class
 testCases\TC_001_AccountRegistrationTest.class
 utilities\DataProviders.class
 pageObjects\LogoutConfirmationPage.class

@@ -1,30 +1,4 @@
-18:26:51.744 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Click on Login Button
-18:26:51.748 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
-18:26:51.753 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Click on Login Button
-18:26:51.753 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
-18:26:51.852 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
-18:26:51.907 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
-18:26:51.942 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
-18:26:51.986 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
-18:26:52.096 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-18:26:52.097 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-18:26:53.230 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Validating login
-18:26:53.230 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Test passed
-18:26:53.230 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
-18:26:53.294 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-18:26:53.294 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-18:26:53.327 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Validating login
-18:26:53.327 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Test passed
-18:26:53.327 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
-18:26:56.250 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
-18:26:56.250 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
-18:26:56.391 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
-18:26:56.742 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Click on Login Button
-18:26:56.742 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
-18:26:56.878 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
-18:26:56.941 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
-18:26:57.997 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-18:26:57.997 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-18:26:58.040 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Validating login
-18:26:58.040 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Test passed
-18:26:58.040 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
+18:39:16.190 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+18:39:16.987 [main] INFO  testCases.TC_002_LoginTest - Validating login
+18:39:16.987 [main] INFO  testCases.TC_002_LoginTest - Test passed
+18:39:16.987 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****

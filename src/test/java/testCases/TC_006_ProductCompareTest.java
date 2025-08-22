@@ -13,7 +13,7 @@ import pageObjects.SearchProductPage;
 import testBase.BaseTest;
 
 public class TC_006_ProductCompareTest extends BaseTest{
-	@Test
+	@Test(groups= {"master","regression"})
 	public void testCompareProduct()
 	{
 		HomePage home = new HomePage(driver);

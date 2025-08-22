@@ -12,7 +12,7 @@ public class TC_002_LoginTest extends BaseTest{
 	
 	
 	@Test(groups = {"regression", "master"})
-	public void verify_login()
+	public void testLogin()
 	{
 		logger.info("**** Starting Test on TC_002_LoginTest ****");
 		HomePage hp = new HomePage(driver);
