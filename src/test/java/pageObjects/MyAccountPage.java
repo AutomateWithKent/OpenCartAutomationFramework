@@ -26,20 +26,16 @@ public class MyAccountPage extends BasePage{
 	
 	public void clickLogout()
 	{
-		WebElement lnkLogout = wait.until(ExpectedConditions.elementToBeClickable(lnkLogoutLocator));
-		lnkLogout.click();
+		wait.until(ExpectedConditions.elementToBeClickable(lnkLogoutLocator)).click();
 	}
 	
 	public void setProduct(String product)
 	{
-		wait.until(ExpectedConditions.presenceOfElementLocated(txtSearchLocator));
-		WebElement txtSearch = driver.findElement(txtSearchLocator);
-		txtSearch.sendKeys(product);
+		sendKeysWithRetry(txtSearchLocator, product);
 	}
 	
 	public void clickSearch()
 	{
-		WebElement btnSearchProduct = wait.until(ExpectedConditions.elementToBeClickable(btnSearchProductLocator));
-		btnSearchProduct.click();
+		wait.until(ExpectedConditions.elementToBeClickable(btnSearchProductLocator)).click();
 	}
 }

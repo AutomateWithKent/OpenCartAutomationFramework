@@ -34,6 +34,7 @@ public class TC_006_ProductCompareTest extends BaseTest{
 		searchProduct.clickProductComparisonLink();
 		
 		ProductComparisonPage productCompare = new ProductComparisonPage(driver);
+		
 		List<String> productList = productCompare.getProductList();
 		boolean isProductFound = false;
 		

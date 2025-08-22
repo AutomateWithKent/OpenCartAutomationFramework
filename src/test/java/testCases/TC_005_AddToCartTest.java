@@ -41,6 +41,7 @@ public class TC_005_AddToCartTest extends BaseTest{
 		Assert.assertTrue(actualAlertMessage.contains(expectedAlertMessage));
 		
 		ShoppingCartPage cart = new ShoppingCartPage(driver);
+		cart.waitForUrlContains();
 		List<String> products = cart.getProductInCart();
 		boolean productIsFound = false;
 		for(String product : products)

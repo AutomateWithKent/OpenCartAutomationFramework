@@ -2,7 +2,6 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
@@ -28,50 +27,42 @@ public class AccountRegistrationPage extends BasePage{
 	
 	public void setFirstName(String firstName)
 	{
-		WebElement txtFirstName = wait.until(ExpectedConditions.elementToBeClickable(txtFirstNameLocator));
-		txtFirstName.sendKeys(firstName);
+		wait.until(ExpectedConditions.elementToBeClickable(txtFirstNameLocator)).sendKeys(firstName);
 	}
 	
 	public void setLastName(String lastName)
 	{
-		WebElement txtLastName = wait.until(ExpectedConditions.elementToBeClickable(txtLastNameLocator));
-		txtLastName.sendKeys(lastName);
+		wait.until(ExpectedConditions.elementToBeClickable(txtLastNameLocator)).sendKeys(lastName);
 	}
 	
 	public void setEmail(String email)
 	{
-		WebElement txtEmail = wait.until(ExpectedConditions.elementToBeClickable(txtEmailLocator));
-		txtEmail.sendKeys(email);
+		wait.until(ExpectedConditions.elementToBeClickable(txtEmailLocator)).sendKeys(email);
 	}
 	
 	public void setTelephone(String telephone)
 	{
-		WebElement txtTelephone = wait.until(ExpectedConditions.elementToBeClickable(txtTelephoneLocator));
-		txtTelephone.sendKeys(telephone);
+		wait.until(ExpectedConditions.elementToBeClickable(txtTelephoneLocator)).sendKeys(telephone);
 	}
 	
 	public void setPassword(String password)
 	{
-		WebElement txtPassword = wait.until(ExpectedConditions.elementToBeClickable(txtPasswordLocator));
-		txtPassword.sendKeys(password);
+		wait.until(ExpectedConditions.elementToBeClickable(txtPasswordLocator)).sendKeys(password);
 	}
 	
 	public void setConfirmPassword(String confirmPassword)
 	{
-		WebElement txtConfirmPassword = wait.until(ExpectedConditions.elementToBeClickable(txtConfirmPasswordLocator));
-		txtConfirmPassword.sendKeys(confirmPassword);
+		wait.until(ExpectedConditions.elementToBeClickable(txtConfirmPasswordLocator)).sendKeys(confirmPassword);
 	}
 	
 	public void clickPrivacyPolicy()
 	{
-		WebElement chkPrivacyPolicy = wait.until(ExpectedConditions.elementToBeClickable(chkPrivacyPolicyLocator));
-		chkPrivacyPolicy.click();
+		wait.until(ExpectedConditions.elementToBeClickable(chkPrivacyPolicyLocator)).click();
 	}
 	
 	public void clickContinueButton()
 	{
-		WebElement btnContinue = wait.until(ExpectedConditions.elementToBeClickable(btnContinueLocator));
-		btnContinue.click();
+		wait.until(ExpectedConditions.elementToBeClickable(btnContinueLocator)).click();
 	}
 
 	

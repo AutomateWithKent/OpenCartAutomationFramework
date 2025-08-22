@@ -13,7 +13,6 @@ public class AccountConfirmationPage extends BasePage{
 	}
 	
 	private By hdrAccountConfirmationLocator = By.xpath("//div[@id='content']//h1[text()='Your Account Has Been Created!']");
-	private By btnContinueLocator = By.xpath("//a[text()=\\\"Continue\\\"]");
 	
 	public String getAccountConfirmationMessage()
 	{

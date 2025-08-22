@@ -2,7 +2,6 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomePage extends BasePage{
@@ -22,20 +21,17 @@ public class HomePage extends BasePage{
 	//action methods
 	public void clickMyAccount()
 	{
-		WebElement lnkMyAccount = wait.until(ExpectedConditions.elementToBeClickable(lnkMyAccountLocator));
-		lnkMyAccount.click();
+		wait.until(ExpectedConditions.elementToBeClickable(lnkMyAccountLocator)).click();
 	}
 	
 	public void clickRegister()
 	{
-		WebElement lnkRegister = wait.until(ExpectedConditions.elementToBeClickable(lnkRegisterLocator));
-		lnkRegister.click();
+		wait.until(ExpectedConditions.elementToBeClickable(lnkRegisterLocator)).click();
 	}
 	
 	public void clickLogin()
 	{
-		WebElement lnkLogin = wait.until(ExpectedConditions.elementToBeClickable(lnkLoginLocator));
-		lnkLogin.click();
+		wait.until(ExpectedConditions.elementToBeClickable(lnkLoginLocator)).click();
 	}
 	
 

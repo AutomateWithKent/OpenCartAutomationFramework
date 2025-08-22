@@ -87,7 +87,6 @@ public Properties properties;
 			}
 		}
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.get(properties.getProperty("apprUrl"));

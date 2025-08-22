@@ -2,7 +2,6 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class LogoutConfirmationPage extends BasePage{
@@ -16,8 +15,7 @@ public class LogoutConfirmationPage extends BasePage{
 	
 	public void clickContinue()
 	{
-		WebElement btnContinue = wait.until(ExpectedConditions.elementToBeClickable(btnContinueLocator));
-		btnContinue.click();
+		wait.until(ExpectedConditions.elementToBeClickable(btnContinueLocator)).click();
 	}
 	
 }

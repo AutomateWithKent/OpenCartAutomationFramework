@@ -19,20 +19,17 @@ public class LoginPage extends BasePage{
 	
 	public void setEmailAddress(String email)
 	{
-		WebElement txtEmailAddress = wait.until(ExpectedConditions.elementToBeClickable(txtEmailAddressLocator));
-		txtEmailAddress.sendKeys(email);
+		wait.until(ExpectedConditions.elementToBeClickable(txtEmailAddressLocator)).sendKeys(email);
 	}
 	
 	public void setPassword(String password)
 	{
-		WebElement txtPassword = wait.until(ExpectedConditions.elementToBeClickable(txtPasswordLocator));
-		txtPassword.sendKeys(password);
+		wait.until(ExpectedConditions.elementToBeClickable(txtPasswordLocator)).sendKeys(password);
 	}
 	
 	public void clickLogin()
 	{
-		WebElement btnLogin = wait.until(ExpectedConditions.elementToBeClickable(btnLoginLocator));
-		btnLogin.click();
+		wait.until(ExpectedConditions.elementToBeClickable(btnLoginLocator)).click();
 	}
 	
 	public boolean alertInvalidLoginIsDisplayed()
@@ -43,9 +40,7 @@ public class LoginPage extends BasePage{
 	
 	public void clearLoginFields()
 	{
-		WebElement txtEmailAddress = wait.until(ExpectedConditions.elementToBeClickable(txtEmailAddressLocator));
-		txtEmailAddress.clear();
-		WebElement txtPassword = wait.until(ExpectedConditions.elementToBeClickable(txtPasswordLocator));
-		txtPassword.clear();
+		wait.until(ExpectedConditions.elementToBeClickable(txtEmailAddressLocator)).clear();
+		wait.until(ExpectedConditions.elementToBeClickable(txtPasswordLocator)).clear();
 	}
 }

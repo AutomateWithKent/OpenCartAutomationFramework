@@ -17,6 +17,12 @@ public class ShoppingCartPage extends BasePage{
 	
 	private By productLocator = By.xpath("//div[@class='table-responsive']/table/tbody/tr/td[2]/a");
 	
+	public void waitForUrlContains()
+	{
+		wait.until(ExpectedConditions.urlContains("cart"));
+	}
+	
+	
 	public List<String> getProductInCart()
 	{
 		wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(productLocator, 0));

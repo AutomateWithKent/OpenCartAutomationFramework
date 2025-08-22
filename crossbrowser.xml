@@ -6,9 +6,9 @@
 	<listener class-name="utilities.ExtentReportUtils"></listener>
 </listeners>
 
-  <test name="Chrome">
+  <test name="ChromeTest">
   <parameter name="browser" value="chrome"></parameter>
-  <parameter name="os" value="windows"></parameter>
+  <parameter name="os" value="linux"></parameter>
     <classes>
     	<class name="testCases.TC_001_AccountRegistrationTest"/>
     	<class name="testCases.TC_002_LoginTest"></class>
@@ -18,27 +18,32 @@
     	<class name="testCases.TC_006_ProductCompareTest"></class>
     </classes>
   </test> 
-
-<!--
-
-    <test name="Firefox">
+  
+    <test name="FirefoxTest">
   <parameter name="browser" value="firefox"></parameter>
+  <parameter name="os" value="linux"></parameter>
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest"/>
       <class name="testCases.TC_002_LoginTest"></class>
+      <!--<class name="testCases.TC_003_LoginDTT"></class>-->
       <class name="testCases.TC_004_SearchTest"></class>
-    </classes>
-  </test> 
-
-    <test name="Edge">
-  <parameter name="browser" value="edge"></parameter>
-    <classes>
-      <class name="testCases.TC_001_AccountRegistrationTest"/>
-      <class name="testCases.TC_002_LoginTest"></class>
-      <class name="testCases.TC_004_SearchTest"></class>
+      <class name="testCases.TC_005_AddToCartTest"></class>
+      <class name="testCases.TC_006_ProductCompareTest"></class>
     </classes>
   </test> 
   
-  -->
+
+    <test name="EdgeTest">
+  <parameter name="browser" value="edge"></parameter>
+  <parameter name="os" value="windows"></parameter>
+    <classes>
+      <class name="testCases.TC_001_AccountRegistrationTest"/>
+      <class name="testCases.TC_002_LoginTest"></class>
+     <!--<class name="testCases.TC_003_LoginDTT"></class>-->
+      <class name="testCases.TC_004_SearchTest"></class>
+      <class name="testCases.TC_005_AddToCartTest"></class>
+      <class name="testCases.TC_006_ProductCompareTest"></class>
+    </classes>
+  </test> 
    
 </suite>

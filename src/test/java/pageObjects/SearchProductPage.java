@@ -6,7 +6,6 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class SearchProductPage extends BasePage{
@@ -31,8 +30,13 @@ public class SearchProductPage extends BasePage{
 	}
 	private By addToCartAlertMessageLocator = By.xpath("//div[contains(@class,'alert alert-success alert-dismissible')]");
 	private By lnkShoppingCart = By.xpath("//div[contains(@class, 'alert-success')]//a[normalize-space()='shopping cart']");
+	private By lnkAlert = By.xpath("//div[contains(@class, 'alert-success')]");
 	private By lnkProductComparison = By.xpath("//div[contains(@class, 'alert-success')]//a[normalize-space()='product comparison']");
 	
+	public void waitForUrlContains(String url)
+	{
+		wait.until(ExpectedConditions.urlContains(url));
+	}
 	
 	public List<String> getProducts()
 	{
@@ -50,14 +54,12 @@ public class SearchProductPage extends BasePage{
 	
 	public void clickAddToCart(String productName)
 	{
-		WebElement addToCart = wait.until(ExpectedConditions.elementToBeClickable(addToCartLocator(productName)));
-		addToCart.click();
+		wait.until(ExpectedConditions.elementToBeClickable(addToCartLocator(productName))).click();
 	}
 	
 	public void clickCompareThisProduct(String productName)
 	{
-		WebElement btnCompareProduct = wait.until(ExpectedConditions.elementToBeClickable(compareProductLocator(productName)));
-		btnCompareProduct.click();
+		wait.until(ExpectedConditions.elementToBeClickable(compareProductLocator(productName))).click();
 	}
 	
 	public boolean alertAddToCartIsDisplayed()
@@ -85,22 +87,15 @@ public class SearchProductPage extends BasePage{
 		}
 	}
 	
+	
 	public void clickShoppingCart()
 	{
-		/*wait.until(ExpectedConditions.visibilityOfElementLocated(lnkShoppingCart));
-		WebElement shoppingCart = wait.until(ExpectedConditions.elementToBeClickable(lnkShoppingCart));
-		shoppingCart.click();
-		*/
-		safeClick(lnkShoppingCart,10,2);
+		clickWithRetry(lnkShoppingCart, "cart", lnkAlert);
 	}
 	
 	public void clickProductComparisonLink()
 	{
-		/*
-		//wait.until(ExpectedConditions.visibilityOfElementLocated(lnkProductComparison));
-		WebElement productComparison = wait.until(ExpectedConditions.elementToBeClickable(lnkProductComparison));
-		productComparison.click();
-		*/
-		safeClick(lnkProductComparison,10,2);
+		clickWithRetry(lnkProductComparison, "compare", lnkAlert);
 	}
+	
 }

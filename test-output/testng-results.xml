@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-22T00:44:10 PST" name="Suite" finished-at="2025-08-22T00:44:24 PST" duration-ms="14294">
+  <suite started-at="2025-08-22T13:39:56 PST" name="Suite" finished-at="2025-08-22T13:40:34 PST" duration-ms="37793">
     <groups>
       <group name="regression">
-        <method signature="TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@2f1de2d6]" name="verify_login" class="testCases.TC_002_LoginTest"/>
-        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@79517588]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
+        <method signature="TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@79517588]" name="verify_login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@7ac0e420]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
+        <method signature="TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@6aa3a905]" name="verify_login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@5dd1c9f2]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
+        <method signature="TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@6187d1f5]" name="verify_login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@7502291e]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_001_AccountRegistrationTest.testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@40238dd0]" name="testRegisterAccount" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@4eb386df]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
+        <method signature="TC_001_AccountRegistrationTest.testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@79179359]" name="testRegisterAccount" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@3a0baae5]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
+        <method signature="TC_001_AccountRegistrationTest.testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@f316aeb]" name="testRegisterAccount" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@a22cb6a]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
+        <method signature="TC_001_AccountRegistrationTest.testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@324a0017]" name="testRegisterAccount" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@2445445a]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_001_AccountRegistrationTest.testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@40238dd0]" name="testRegisterAccount" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@2f1de2d6]" name="verify_login" class="testCases.TC_002_LoginTest"/>
-        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@4eb386df]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
-        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@79517588]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
+        <method signature="TC_001_AccountRegistrationTest.testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@79179359]" name="testRegisterAccount" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@79517588]" name="verify_login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@3a0baae5]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
+        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@7ac0e420]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
+        <method signature="TC_001_AccountRegistrationTest.testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@f316aeb]" name="testRegisterAccount" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@6aa3a905]" name="verify_login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@a22cb6a]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
+        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@5dd1c9f2]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
+        <method signature="TC_001_AccountRegistrationTest.testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@324a0017]" name="testRegisterAccount" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_LoginTest.verify_login()[pri:0, instance:testCases.TC_002_LoginTest@6187d1f5]" name="verify_login" class="testCases.TC_002_LoginTest"/>
+        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@2445445a]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
+        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@7502291e]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-08-22T00:44:10 PST" name="LinuxChromeTest" finished-at="2025-08-22T00:44:24 PST" duration-ms="14294">
+    <test started-at="2025-08-22T13:39:56 PST" name="ChromeTest" finished-at="2025-08-22T13:40:21 PST" duration-ms="24574">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@40238dd0]" started-at="2025-08-22T00:44:10 PST" name="setup" finished-at="2025-08-22T00:44:12 PST" duration-ms="1642" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@79179359]" started-at="2025-08-22T13:39:57 PST" name="setup" finished-at="2025-08-22T13:39:58 PST" duration-ms="1559" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,17 +53,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@40238dd0]" started-at="2025-08-22T00:44:12 PST" name="testRegisterAccount" finished-at="2025-08-22T00:44:13 PST" duration-ms="1404" status="PASS">
+        <test-method signature="testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@79179359]" started-at="2025-08-22T13:39:58 PST" name="testRegisterAccount" finished-at="2025-08-22T13:40:01 PST" duration-ms="3349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegisterAccount -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@40238dd0]" started-at="2025-08-22T00:44:13 PST" name="teardown" finished-at="2025-08-22T00:44:13 PST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@79179359]" started-at="2025-08-22T13:40:01 PST" name="teardown" finished-at="2025-08-22T13:40:02 PST" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_001_AccountRegistrationTest -->
       <class name="testCases.TC_006_ProductCompareTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@3a0baae5]" started-at="2025-08-22T00:44:21 PST" name="setup" finished-at="2025-08-22T00:44:22 PST" duration-ms="1046" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@289710d9]" started-at="2025-08-22T13:40:17 PST" name="setup" finished-at="2025-08-22T13:40:19 PST" duration-ms="1156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,17 +79,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCompareProduct()[pri:0, instance:testCases.TC_006_ProductCompareTest@3a0baae5]" started-at="2025-08-22T00:44:22 PST" name="testCompareProduct" finished-at="2025-08-22T00:44:24 PST" duration-ms="1900" status="PASS">
+        <test-method signature="testCompareProduct()[pri:0, instance:testCases.TC_006_ProductCompareTest@289710d9]" started-at="2025-08-22T13:40:19 PST" name="testCompareProduct" finished-at="2025-08-22T13:40:21 PST" duration-ms="2357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompareProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_006_ProductCompareTest@3a0baae5]" started-at="2025-08-22T00:44:24 PST" name="teardown" finished-at="2025-08-22T00:44:24 PST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_006_ProductCompareTest@289710d9]" started-at="2025-08-22T13:40:21 PST" name="teardown" finished-at="2025-08-22T13:40:21 PST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_006_ProductCompareTest -->
       <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@2f1de2d6]" started-at="2025-08-22T00:44:13 PST" name="setup" finished-at="2025-08-22T00:44:14 PST" duration-ms="1106" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@79517588]" started-at="2025-08-22T13:40:02 PST" name="setup" finished-at="2025-08-22T13:40:05 PST" duration-ms="2799" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,17 +105,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC_002_LoginTest@2f1de2d6]" started-at="2025-08-22T00:44:14 PST" name="verify_login" finished-at="2025-08-22T00:44:15 PST" duration-ms="1047" status="PASS">
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC_002_LoginTest@79517588]" started-at="2025-08-22T13:40:05 PST" name="verify_login" finished-at="2025-08-22T13:40:10 PST" duration-ms="5154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginTest@2f1de2d6]" started-at="2025-08-22T00:44:15 PST" name="teardown" finished-at="2025-08-22T00:44:16 PST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginTest@79517588]" started-at="2025-08-22T13:40:10 PST" name="teardown" finished-at="2025-08-22T13:40:10 PST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_002_LoginTest -->
       <class name="testCases.TC_005_AddToCartTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartTest@79517588]" started-at="2025-08-22T00:44:18 PST" name="setup" finished-at="2025-08-22T00:44:19 PST" duration-ms="1013" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartTest@7ac0e420]" started-at="2025-08-22T13:40:13 PST" name="setup" finished-at="2025-08-22T13:40:15 PST" duration-ms="1097" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,17 +131,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@79517588]" started-at="2025-08-22T00:44:19 PST" name="testAddToCart" finished-at="2025-08-22T00:44:21 PST" duration-ms="1878" status="PASS">
+        <test-method signature="testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@7ac0e420]" started-at="2025-08-22T13:40:15 PST" name="testAddToCart" finished-at="2025-08-22T13:40:17 PST" duration-ms="2703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddToCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_005_AddToCartTest@79517588]" started-at="2025-08-22T00:44:21 PST" name="teardown" finished-at="2025-08-22T00:44:21 PST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_005_AddToCartTest@7ac0e420]" started-at="2025-08-22T13:40:17 PST" name="teardown" finished-at="2025-08-22T13:40:17 PST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_005_AddToCartTest -->
       <class name="testCases.TC_004_SearchTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_SearchTest@4eb386df]" started-at="2025-08-22T00:44:16 PST" name="setup" finished-at="2025-08-22T00:44:17 PST" duration-ms="1058" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_SearchTest@3a0baae5]" started-at="2025-08-22T13:40:10 PST" name="setup" finished-at="2025-08-22T13:40:12 PST" duration-ms="1229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,15 +157,279 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@4eb386df]" started-at="2025-08-22T00:44:17 PST" name="testSearchProduct" finished-at="2025-08-22T00:44:18 PST" duration-ms="1301" status="PASS">
+        <test-method signature="testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@3a0baae5]" started-at="2025-08-22T13:40:12 PST" name="testSearchProduct" finished-at="2025-08-22T13:40:13 PST" duration-ms="1813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_004_SearchTest@4eb386df]" started-at="2025-08-22T00:44:18 PST" name="teardown" finished-at="2025-08-22T00:44:18 PST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_004_SearchTest@3a0baae5]" started-at="2025-08-22T13:40:13 PST" name="teardown" finished-at="2025-08-22T13:40:13 PST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_004_SearchTest -->
-    </test> <!-- LinuxChromeTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-08-22T13:39:56 PST" name="FirefoxTest" finished-at="2025-08-22T13:40:30 PST" duration-ms="33587">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@f316aeb]" started-at="2025-08-22T13:39:57 PST" name="setup" finished-at="2025-08-22T13:40:00 PST" duration-ms="3400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@f316aeb]" started-at="2025-08-22T13:40:00 PST" name="testRegisterAccount" finished-at="2025-08-22T13:40:10 PST" duration-ms="10150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@f316aeb]" started-at="2025-08-22T13:40:10 PST" name="teardown" finished-at="2025-08-22T13:40:11 PST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_006_ProductCompareTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@59b38691]" started-at="2025-08-22T13:40:25 PST" name="setup" finished-at="2025-08-22T13:40:27 PST" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCompareProduct()[pri:0, instance:testCases.TC_006_ProductCompareTest@59b38691]" started-at="2025-08-22T13:40:27 PST" name="testCompareProduct" finished-at="2025-08-22T13:40:29 PST" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_006_ProductCompareTest@59b38691]" started-at="2025-08-22T13:40:29 PST" name="teardown" finished-at="2025-08-22T13:40:30 PST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_006_ProductCompareTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@6aa3a905]" started-at="2025-08-22T13:40:11 PST" name="setup" finished-at="2025-08-22T13:40:14 PST" duration-ms="2196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC_002_LoginTest@6aa3a905]" started-at="2025-08-22T13:40:14 PST" name="verify_login" finished-at="2025-08-22T13:40:15 PST" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginTest@6aa3a905]" started-at="2025-08-22T13:40:15 PST" name="teardown" finished-at="2025-08-22T13:40:16 PST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_005_AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartTest@5dd1c9f2]" started-at="2025-08-22T13:40:20 PST" name="setup" finished-at="2025-08-22T13:40:22 PST" duration-ms="2353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@5dd1c9f2]" started-at="2025-08-22T13:40:22 PST" name="testAddToCart" finished-at="2025-08-22T13:40:25 PST" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_005_AddToCartTest@5dd1c9f2]" started-at="2025-08-22T13:40:25 PST" name="teardown" finished-at="2025-08-22T13:40:25 PST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_005_AddToCartTest -->
+      <class name="testCases.TC_004_SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_SearchTest@a22cb6a]" started-at="2025-08-22T13:40:16 PST" name="setup" finished-at="2025-08-22T13:40:18 PST" duration-ms="2164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@a22cb6a]" started-at="2025-08-22T13:40:18 PST" name="testSearchProduct" finished-at="2025-08-22T13:40:19 PST" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_004_SearchTest@a22cb6a]" started-at="2025-08-22T13:40:20 PST" name="teardown" finished-at="2025-08-22T13:40:20 PST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_004_SearchTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2025-08-22T13:39:56 PST" name="EdgeTest" finished-at="2025-08-22T13:40:34 PST" duration-ms="37793">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@324a0017]" started-at="2025-08-22T13:39:57 PST" name="setup" finished-at="2025-08-22T13:39:58 PST" duration-ms="1475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegisterAccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@324a0017]" started-at="2025-08-22T13:39:58 PST" name="testRegisterAccount" finished-at="2025-08-22T13:40:01 PST" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@324a0017]" started-at="2025-08-22T13:40:01 PST" name="teardown" finished-at="2025-08-22T13:40:01 PST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_006_ProductCompareTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@17aad511]" started-at="2025-08-22T13:40:29 PST" name="setup" finished-at="2025-08-22T13:40:32 PST" duration-ms="2540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCompareProduct()[pri:0, instance:testCases.TC_006_ProductCompareTest@17aad511]" started-at="2025-08-22T13:40:32 PST" name="testCompareProduct" finished-at="2025-08-22T13:40:34 PST" duration-ms="2263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_006_ProductCompareTest@17aad511]" started-at="2025-08-22T13:40:34 PST" name="teardown" finished-at="2025-08-22T13:40:34 PST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_006_ProductCompareTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@6187d1f5]" started-at="2025-08-22T13:40:01 PST" name="setup" finished-at="2025-08-22T13:40:04 PST" duration-ms="3034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC_002_LoginTest@6187d1f5]" started-at="2025-08-22T13:40:04 PST" name="verify_login" finished-at="2025-08-22T13:40:10 PST" duration-ms="5757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginTest@6187d1f5]" started-at="2025-08-22T13:40:10 PST" name="teardown" finished-at="2025-08-22T13:40:10 PST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_005_AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartTest@7502291e]" started-at="2025-08-22T13:40:14 PST" name="setup" finished-at="2025-08-22T13:40:15 PST" duration-ms="1547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@7502291e]" started-at="2025-08-22T13:40:15 PST" name="testAddToCart" finished-at="2025-08-22T13:40:29 PST" duration-ms="13806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_005_AddToCartTest@7502291e]" started-at="2025-08-22T13:40:29 PST" name="teardown" finished-at="2025-08-22T13:40:29 PST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_005_AddToCartTest -->
+      <class name="testCases.TC_004_SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_SearchTest@2445445a]" started-at="2025-08-22T13:40:10 PST" name="setup" finished-at="2025-08-22T13:40:11 PST" duration-ms="1288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@2445445a]" started-at="2025-08-22T13:40:11 PST" name="testSearchProduct" finished-at="2025-08-22T13:40:13 PST" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_004_SearchTest@2445445a]" started-at="2025-08-22T13:40:13 PST" name="teardown" finished-at="2025-08-22T13:40:14 PST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_004_SearchTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>
