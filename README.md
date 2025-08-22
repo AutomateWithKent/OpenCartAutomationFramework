@@ -32,7 +32,7 @@ OpenCartAutomationFramework
 │   │   │   └── 📂 utilities
 │   │   │       ├── # DataProviders
 │   │   │       ├── # ExcelUtilities
-│   │   │       ├── # ExtentReportManager
+│   │   │       ├── # ExtentReportUtils
 │   │   │       └── # RandomStringUtils
 │   │   ├── 📂 resources
 │   │   │   ├── 📄 config.properties   # Configuration file
