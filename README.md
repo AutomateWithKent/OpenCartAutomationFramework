@@ -45,7 +45,7 @@ OpenCartAutomationFramework
 │   │       └── # Screenshots captured on failed tests
 ├── 📄 DataDriven.xml        # TestNG suite for data-driven tests
 ├── 📄 crossbrowser.xml      # TestNG suite for cross-browser testing
-├── 📄 grid-docker.xml       # TestNG suite for running tests on Docker containers (remote)
+├── 📄 paralleltest.xml.xml  # TestNG suite for running parallel testing
 ├── 📄 groupings.xml         # TestNG suite for grouped tests (sanity, regression, master, DDT)
 ├── 📄 master.xml            # Master TestNG suite to execute all test classes
 ├── 📄 pom.xml               # Maven configuration & dependencies
