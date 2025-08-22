@@ -1,48 +1,44 @@
-13:39:10.431 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Validating login
-13:39:10.432 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Test passed
-13:39:10.432 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
-13:39:11.355 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
-13:39:11.355 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
-13:39:11.471 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
-13:39:11.652 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Click on Login Button
-13:39:11.683 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
-13:39:11.754 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
-13:39:11.806 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
-13:39:13.076 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
-13:39:13.076 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
-13:39:13.100 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Validating login
-13:39:13.100 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Test passed
-13:39:13.101 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
-13:39:56.731 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\paralleltest.xml"
-13:39:56.931 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\paralleltest.xml
-
-13:39:58.540 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
-13:39:58.541 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
-13:39:58.542 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
-13:39:58.609 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
-13:39:58.609 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
-13:39:58.609 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
-13:39:58.647 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
-13:39:58.698 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
-13:39:58.928 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
-13:39:58.931 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
-13:39:58.965 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
-13:39:58.965 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
-13:39:59.145 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: EVkhgWU@gmail.com
-13:39:59.177 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: UTaSiCU@gmail.com
-13:39:59.206 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: MBEBKK2Ozy2s7AH
-13:39:59.243 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: rMQgoeF0x6kRg7k
-13:39:59.338 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
-13:39:59.362 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
-13:39:59.402 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
-13:39:59.426 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
-13:40:00.555 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
-13:40:00.555 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
-13:40:00.555 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
-13:40:00.642 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
-13:40:01.333 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
-13:40:01.359 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
-13:40:01.359 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
-13:40:01.924 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
-13:40:01.953 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+18:26:46.720 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
+18:26:46.731 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
+18:26:46.841 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+18:26:46.841 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
+18:26:46.841 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
+18:26:46.848 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+18:26:46.950 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+18:26:47.192 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+18:26:47.193 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+18:26:47.302 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+18:26:47.302 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+18:26:47.480 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: lpYzTmS@gmail.com
+18:26:47.563 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: YEcX0hMHwHPWwA1
+18:26:47.594 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: GLPvJXf@gmail.com
+18:26:47.667 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: pKcrYVXa6uMJNWR
+18:26:47.730 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+18:26:47.815 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+18:26:47.823 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+18:26:47.906 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+18:26:48.942 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+18:26:49.025 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+18:26:49.026 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+18:26:49.234 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+18:26:49.275 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+18:26:49.275 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+18:26:49.599 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+18:26:49.599 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
+18:26:49.599 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
+18:26:49.707 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+18:26:50.069 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+18:26:50.069 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+18:26:50.286 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: KtllBoV@gmail.com
+18:26:50.388 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: thVGQKhgtDxTYtP
+18:26:50.450 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+18:26:50.536 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+18:26:51.338 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+18:26:51.338 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+18:26:51.366 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+18:26:51.368 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+18:26:51.453 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+18:26:51.480 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+18:26:51.652 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+18:26:51.683 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+18:26:51.683 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
