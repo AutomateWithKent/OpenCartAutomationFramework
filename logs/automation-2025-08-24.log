@@ -1,0 +1,46 @@
+19:25:50.840 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+19:25:50.845 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+19:25:51.019 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: EfXykWL@gmail.com
+19:25:51.098 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: 5lCeOkZQfU3Wf2T
+19:25:51.263 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: IDRittq@gmail.com
+19:25:51.277 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+19:25:51.342 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: Gx2WDEpktqg6JnY
+19:25:51.363 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+19:25:51.499 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+19:25:51.582 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+19:25:52.444 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+19:25:52.530 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+19:25:52.533 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+19:25:52.533 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+19:25:52.580 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+19:25:52.580 [TestNG-tests-3] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+19:25:52.893 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+19:25:52.894 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
+19:25:52.894 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
+19:25:52.999 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+19:25:53.317 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+19:25:53.317 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+19:25:53.480 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: fsOqHEx@gmail.com
+19:25:53.515 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: hXU4rQfkFFu4iFB
+19:25:53.577 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+19:25:53.658 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+19:25:54.438 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+19:25:54.478 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+19:25:54.478 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+19:25:54.594 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+19:25:54.594 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+19:25:54.692 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+19:25:54.920 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Click on Login Button
+19:25:54.920 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+19:25:54.968 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+19:25:54.968 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+19:25:55.028 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
+19:25:55.074 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+19:25:55.120 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
+19:25:55.344 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Click on Login Button
+19:25:55.344 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+19:25:55.479 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
+19:25:55.605 [TestNG-tests-3] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
+19:25:55.910 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+19:25:55.911 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+19:25:55.961 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Validating login

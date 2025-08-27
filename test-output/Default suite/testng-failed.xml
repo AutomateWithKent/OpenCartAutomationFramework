@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_005_AddToCartTest">
+      <class name="testCases.TC_001_AccountRegistrationTest">
         <methods>
-          <include name="testAddToCart"/>
+          <include name="Validate_Registering_an_Account_by_providing_only_the_Mandatory_fields"/>
+          <include name="goToHomePage"/>
+          <include name="validate_Registering_an_Account_by_providing_all_the_fields"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testCases.TC_005_AddToCartTest -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -13,6 +13,8 @@ public class AccountConfirmationPage extends BasePage{
 	}
 	
 	private By hdrAccountConfirmationLocator = By.xpath("//div[@id='content']//h1[text()='Your Account Has Been Created!']");
+	private By lnkMyAccount = By.xpath("//span[normalize-space()='My Account']");
+	private By lnkLogOut = By.xpath("//ul[contains(@class, 'dropdown-menu')]/li[normalize-space()='Logout']");
 	
 	public String getAccountConfirmationMessage()
 	{
@@ -20,4 +22,15 @@ public class AccountConfirmationPage extends BasePage{
 		String accountConfirmationMessage = hdrAccountConfirmation.getText();
 		return accountConfirmationMessage;
 	}
+	
+	public void clickMyAccount()
+	{
+		wait.until(ExpectedConditions.elementToBeClickable(lnkMyAccount)).click();
+	}
+	
+	public void clickLogOut()
+	{
+		wait.until(ExpectedConditions.elementToBeClickable(lnkLogOut)).click();
+	}
+	
 }
