@@ -1,48 +1,54 @@
-20:55:15.687 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.690 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.691 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.691 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.695 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
-20:55:15.701 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
-20:55:15.701 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.701 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.703 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.703 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.703 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.703 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.706 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.706 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.706 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.706 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.708 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.708 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.708 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.708 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.709 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.712 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-20:55:15.713 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.713 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.713 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:55:15.713 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:55:15.717 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Kent\AppData\Local\Temp\testng-eclipse--1907723210\testng-customsuite.xml
-
-20:55:15.730 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
-20:55:15.861 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@55342f40: 39 ms
-20:55:15.868 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@3f0846c6: 7 ms
-20:55:15.875 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@2974f221: 7 ms
-20:55:15.880 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1af146: 5 ms
-20:55:15.884 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7fc6de5b: 3 ms
-20:55:15.884 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@21baa903: 0 ms
-20:56:28.892 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
-20:56:29.047 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+21:29:09.899 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+21:29:10.325 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+21:29:10.325 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+21:29:10.552 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: zkUaCdP@gmail.com
+21:29:10.597 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: f4TZautFDoORAvO
+21:29:10.706 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicking 'Yes' Subscribe Button
+21:29:10.747 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+21:29:10.810 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+21:29:10.916 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+21:29:12.269 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+21:29:12.269 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+21:29:17.890 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+21:29:17.892 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+21:29:17.971 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+21:29:18.418 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
+21:29:18.420 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+21:29:18.509 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
+21:29:18.558 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
+21:29:19.920 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+21:29:19.920 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+21:29:19.937 [main] INFO  testCases.TC_002_LoginTest - Validating login
+21:29:19.938 [main] INFO  testCases.TC_002_LoginTest - Test passed
+21:29:19.938 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
+21:34:20.217 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
+21:34:20.392 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml
 
-20:56:32.567 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
-20:56:32.567 [main] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
-20:56:32.570 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
-20:56:32.652 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
-20:56:33.177 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
-20:56:33.178 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
-20:56:33.362 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: IeknLij@gmail.com
-20:56:33.407 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: k7XtglsMIWDG2nc
+21:34:26.464 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+21:34:27.422 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+21:34:27.423 [main] INFO  testCases.TC_001_AccountRegistrationTest - Opening Browser 
+21:34:27.423 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account Link 
+21:34:27.471 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link 
+21:34:27.841 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Registration Page 
+21:34:27.843 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting data on registration fields 
+21:34:27.991 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting email on email field: iZsHXrx@gmail.com
+21:34:28.048 [main] INFO  testCases.TC_001_AccountRegistrationTest - Inputting password & confirm password: ws52fnBeLxuh7Hn
+21:34:28.158 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicking 'Yes' Subscribe Button
+21:34:28.199 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+21:34:28.252 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+21:34:29.235 [main] INFO  testCases.TC_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+21:34:29.256 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test passed
+21:34:29.256 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+21:34:33.422 [main] INFO  testCases.TC_002_LoginTest - **** Starting Test on TC_002_LoginTest ****
+21:34:33.422 [main] INFO  testCases.TC_002_LoginTest - Navigating to HomePage
+21:34:33.494 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account Link
+21:34:33.853 [main] INFO  testCases.TC_002_LoginTest - Click on Login Button
+21:34:33.853 [main] INFO  testCases.TC_002_LoginTest - Navigating to LoginPage
+21:34:33.939 [main] INFO  testCases.TC_002_LoginTest - Inputting email address: kent_test@gmail.com
+21:34:33.998 [main] INFO  testCases.TC_002_LoginTest - Inputting password: testp@$$w0rd123
+21:34:34.068 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Button
+21:34:34.068 [main] INFO  testCases.TC_002_LoginTest - Navigating to MyAccountPage
+21:34:35.357 [main] INFO  testCases.TC_002_LoginTest - Validating login
+21:34:35.357 [main] INFO  testCases.TC_002_LoginTest - Test passed
+21:34:35.357 [main] INFO  testCases.TC_002_LoginTest - **** Test Completed on TC_002_LoginTest ****
