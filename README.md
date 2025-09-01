@@ -53,16 +53,19 @@ OpenCartAutomationFramework
 ```
 ---
 
-## 📋 Prerequisites
+## 📋 Prerequisites  
 Before setting up the project, ensure you have the following installed:  
 
 - **JDK 21+** (make sure `JAVA_HOME` is set)  
-- **Maven 3.8+**  
+- **Maven 3.8+** (for dependency management and builds)  
 - **Git**  
-- An IDE such as **Eclipse** or **IntelliJ**  
-- A modern browser (Chrome, Edge, Firefox)  
-- Matching browser drivers (ChromeDriver, GeckoDriver, etc.) for Selenium  
-
+- An IDE such as **Eclipse** or **IntelliJ IDEA**  
+- **TestNG**  
+  - If using Maven: add TestNG as a dependency in `pom.xml`.  
+  - If running tests directly from Eclipse: install the **TestNG plugin** from Eclipse Marketplace.  
+- A modern browser (**Chrome**, **Edge**, **Firefox**)  
+- Matching browser drivers (**ChromeDriver**, **GeckoDriver**, etc.) for Selenium
+  
 ---
 
 ## ⚙️ Setup & Installation
