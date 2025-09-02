@@ -12,9 +12,9 @@ import pageObjects.ProductComparisonPage;
 import pageObjects.SearchProductPage;
 import testBase.BaseTest;
 
-public class TC_006_ProductCompareTest extends BaseTest{
+public class TC_PC_001_ProductCompareTest extends BaseTest{
 	@Test(groups= {"master","regression"})
-	public void testCompareProduct()
+	public void Validate_adding_the_product_for_comparision_from_Product_Display_Page()
 	{
 		HomePage home = new HomePage(driver);
 		home.clickMyAccount();

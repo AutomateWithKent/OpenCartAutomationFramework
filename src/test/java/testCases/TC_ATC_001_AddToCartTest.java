@@ -12,10 +12,10 @@ import pageObjects.SearchProductPage;
 import pageObjects.ShoppingCartPage;
 import testBase.BaseTest;
 
-public class TC_005_AddToCartTest extends BaseTest{
+public class TC_ATC_001_AddToCartTest extends BaseTest{
 
 	@Test(groups = {"regression", "master"})
-	public void testAddToCart()
+	public void Validate_adding_the_product_to_Cart_from__Product_Display_Page()
 	{
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();

@@ -11,11 +11,11 @@ import pageObjects.MyAccountPage;
 import pageObjects.SearchProductPage;
 import testBase.BaseTest;
 
-public class TC_004_SearchTest extends BaseTest{
+public class TC_SF_001_SearchTest extends BaseTest{
 	
 	@Test(groups= {"sanity","master"})
 	
-	public void testSearchProduct() throws InterruptedException
+	public void Validate_searching_with_an_existing_Product_Name()
 	{
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();

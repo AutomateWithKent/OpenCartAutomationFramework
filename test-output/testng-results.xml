@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-27T21:37:15 PST" name="Suite" finished-at="2025-08-27T21:37:54 PST" duration-ms="39501">
+  <suite started-at="2025-09-02T20:35:22 PST" name="Suite" finished-at="2025-09-02T20:35:44 PST" duration-ms="21999">
     <groups>
       <group name="regression">
-        <method signature="TC_001_AccountRegistrationTest.validate_Registering_an_Account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" name="validate_Registering_an_Account_by_providing_all_the_fields" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_002_LoginTest.testLogin()[pri:0, instance:testCases.TC_002_LoginTest@4f25b795]" name="testLogin" class="testCases.TC_002_LoginTest"/>
-        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@6e950bcf]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
-        <method signature="TC_006_ProductCompareTest.testCompareProduct()[pri:0, instance:testCases.TC_006_ProductCompareTest@16414e40]" name="testCompareProduct" class="testCases.TC_006_ProductCompareTest"/>
+        <method signature="TC_ATC_001_AddToCartTest.Validate_adding_the_product_to_Cart_from__Product_Display_Page()[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@7ac0e420]" name="Validate_adding_the_product_to_Cart_from__Product_Display_Page" class="testCases.TC_ATC_001_AddToCartTest"/>
+        <method signature="TC_LF_001_LoginTest.Validate_logging_into_the_Application_using_valid_credentials()[pri:0, instance:testCases.TC_LF_001_LoginTest@79517588]" name="Validate_logging_into_the_Application_using_valid_credentials" class="testCases.TC_LF_001_LoginTest"/>
+        <method signature="TC_PC_001_ProductCompareTest.Validate_adding_the_product_for_comparision_from_Product_Display_Page()[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@289710d9]" name="Validate_adding_the_product_for_comparision_from_Product_Display_Page" class="testCases.TC_PC_001_ProductCompareTest"/>
+        <method signature="TC_RF_003_AccountRegistrationTest.Validate_registering_an_account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@4eb386df]" name="Validate_registering_an_account_by_providing_all_the_fields" class="testCases.TC_RF_003_AccountRegistrationTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_001_AccountRegistrationTest.validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@6fb365ed]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
+        <method signature="TC_RF_001_AccountRegistrationTest.validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@7776ab]" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" class="testCases.TC_RF_001_AccountRegistrationTest"/>
+        <method signature="TC_SF_001_SearchTest.Validate_searching_with_an_existing_Product_Name()[pri:0, instance:testCases.TC_SF_001_SearchTest@3a0baae5]" name="Validate_searching_with_an_existing_Product_Name" class="testCases.TC_SF_001_SearchTest"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_001_AccountRegistrationTest.validate_Registering_an_Account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" name="validate_Registering_an_Account_by_providing_all_the_fields" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_001_AccountRegistrationTest.validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_002_LoginTest.testLogin()[pri:0, instance:testCases.TC_002_LoginTest@4f25b795]" name="testLogin" class="testCases.TC_002_LoginTest"/>
-        <method signature="TC_004_SearchTest.testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@6fb365ed]" name="testSearchProduct" class="testCases.TC_004_SearchTest"/>
-        <method signature="TC_005_AddToCartTest.testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@6e950bcf]" name="testAddToCart" class="testCases.TC_005_AddToCartTest"/>
-        <method signature="TC_006_ProductCompareTest.testCompareProduct()[pri:0, instance:testCases.TC_006_ProductCompareTest@16414e40]" name="testCompareProduct" class="testCases.TC_006_ProductCompareTest"/>
+        <method signature="TC_ATC_001_AddToCartTest.Validate_adding_the_product_to_Cart_from__Product_Display_Page()[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@7ac0e420]" name="Validate_adding_the_product_to_Cart_from__Product_Display_Page" class="testCases.TC_ATC_001_AddToCartTest"/>
+        <method signature="TC_LF_001_LoginTest.Validate_logging_into_the_Application_using_valid_credentials()[pri:0, instance:testCases.TC_LF_001_LoginTest@79517588]" name="Validate_logging_into_the_Application_using_valid_credentials" class="testCases.TC_LF_001_LoginTest"/>
+        <method signature="TC_PC_001_ProductCompareTest.Validate_adding_the_product_for_comparision_from_Product_Display_Page()[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@289710d9]" name="Validate_adding_the_product_for_comparision_from_Product_Display_Page" class="testCases.TC_PC_001_ProductCompareTest"/>
+        <method signature="TC_RF_001_AccountRegistrationTest.validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@7776ab]" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" class="testCases.TC_RF_001_AccountRegistrationTest"/>
+        <method signature="TC_RF_003_AccountRegistrationTest.Validate_registering_an_account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@4eb386df]" name="Validate_registering_an_account_by_providing_all_the_fields" class="testCases.TC_RF_003_AccountRegistrationTest"/>
+        <method signature="TC_SF_001_SearchTest.Validate_searching_with_an_existing_Product_Name()[pri:0, instance:testCases.TC_SF_001_SearchTest@3a0baae5]" name="Validate_searching_with_an_existing_Product_Name" class="testCases.TC_SF_001_SearchTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-08-27T21:37:15 PST" name="LinuxChromeTest" finished-at="2025-08-27T21:37:54 PST" duration-ms="39501">
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" started-at="2025-08-27T21:37:15 PST" name="setup" finished-at="2025-08-27T21:37:19 PST" duration-ms="4096" status="PASS">
+    <test started-at="2025-09-02T20:35:22 PST" name="LinuxChromeTest" finished-at="2025-09-02T20:35:44 PST" duration-ms="21999">
+      <class name="testCases.TC_PC_001_ProductCompareTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@289710d9]" started-at="2025-09-02T20:35:40 PST" name="setup" finished-at="2025-09-02T20:35:41 PST" duration-ms="1089" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,139 +41,145 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" started-at="2025-08-27T21:37:19 PST" name="goToHomePage" finished-at="2025-08-27T21:37:19 PST" duration-ms="359" status="PASS">
+        <test-method signature="Validate_adding_the_product_for_comparision_from_Product_Display_Page()[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@289710d9]" started-at="2025-09-02T20:35:41 PST" name="Validate_adding_the_product_for_comparision_from_Product_Display_Page" finished-at="2025-09-02T20:35:44 PST" duration-ms="2206" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goToHomePage -->
-        <test-method signature="validate_Registering_an_Account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" started-at="2025-08-27T21:37:19 PST" name="validate_Registering_an_Account_by_providing_all_the_fields" finished-at="2025-08-27T21:37:22 PST" duration-ms="2309" status="PASS">
+        </test-method> <!-- Validate_adding_the_product_for_comparision_from_Product_Display_Page -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@289710d9]" started-at="2025-09-02T20:35:44 PST" name="teardown" finished-at="2025-09-02T20:35:44 PST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_Registering_an_Account_by_providing_all_the_fields -->
-        <test-method is-config="true" signature="logoOut()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" started-at="2025-08-27T21:37:22 PST" name="logoOut" finished-at="2025-08-27T21:37:22 PST" duration-ms="825" status="PASS">
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_PC_001_ProductCompareTest -->
+      <class name="testCases.TC_ATC_001_AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@7ac0e420]" started-at="2025-09-02T20:35:32 PST" name="setup" finished-at="2025-09-02T20:35:37 PST" duration-ms="5025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoOut -->
-        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" started-at="2025-08-27T21:37:22 PST" name="goToHomePage" finished-at="2025-08-27T21:37:23 PST" duration-ms="370" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_adding_the_product_to_Cart_from__Product_Display_Page()[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@7ac0e420]" started-at="2025-09-02T20:35:37 PST" name="Validate_adding_the_product_to_Cart_from__Product_Display_Page" finished-at="2025-09-02T20:35:40 PST" duration-ms="3012" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goToHomePage -->
-        <test-method signature="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" started-at="2025-08-27T21:37:23 PST" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" finished-at="2025-08-27T21:37:25 PST" duration-ms="2020" status="PASS">
+        </test-method> <!-- Validate_adding_the_product_to_Cart_from__Product_Display_Page -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@7ac0e420]" started-at="2025-09-02T20:35:40 PST" name="teardown" finished-at="2025-09-02T20:35:40 PST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_ATC_001_AddToCartTest -->
+      <class name="testCases.TC_LF_001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_001_LoginTest@79517588]" started-at="2025-09-02T20:35:27 PST" name="setup" finished-at="2025-09-02T20:35:28 PST" duration-ms="1077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_logging_into_the_Application_using_valid_credentials()[pri:0, instance:testCases.TC_LF_001_LoginTest@79517588]" started-at="2025-09-02T20:35:28 PST" name="Validate_logging_into_the_Application_using_valid_credentials" finished-at="2025-09-02T20:35:29 PST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_logging_into_the_Application_using_valid_credentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_LF_001_LoginTest@79517588]" started-at="2025-09-02T20:35:29 PST" name="teardown" finished-at="2025-09-02T20:35:29 PST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_LF_001_LoginTest -->
+      <class name="testCases.TC_RF_003_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@4eb386df]" started-at="2025-09-02T20:35:25 PST" name="setup" finished-at="2025-09-02T20:35:26 PST" duration-ms="1045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_registering_an_account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@4eb386df]" started-at="2025-09-02T20:35:26 PST" name="Validate_registering_an_account_by_providing_all_the_fields" finished-at="2025-09-02T20:35:27 PST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_registering_an_account_by_providing_all_the_fields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@4eb386df]" started-at="2025-09-02T20:35:27 PST" name="teardown" finished-at="2025-09-02T20:35:27 PST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_RF_003_AccountRegistrationTest -->
+      <class name="testCases.TC_SF_001_SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_001_SearchTest@3a0baae5]" started-at="2025-09-02T20:35:29 PST" name="setup" finished-at="2025-09-02T20:35:31 PST" duration-ms="1093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_searching_with_an_existing_Product_Name()[pri:0, instance:testCases.TC_SF_001_SearchTest@3a0baae5]" started-at="2025-09-02T20:35:31 PST" name="Validate_searching_with_an_existing_Product_Name" finished-at="2025-09-02T20:35:32 PST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_searching_with_an_existing_Product_Name -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_SF_001_SearchTest@3a0baae5]" started-at="2025-09-02T20:35:32 PST" name="teardown" finished-at="2025-09-02T20:35:32 PST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_SF_001_SearchTest -->
+      <class name="testCases.TC_RF_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@7776ab]" started-at="2025-09-02T20:35:22 PST" name="setup" finished-at="2025-09-02T20:35:23 PST" duration-ms="1321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@7776ab]" started-at="2025-09-02T20:35:23 PST" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" finished-at="2025-09-02T20:35:25 PST" duration-ms="1353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_Registering_an_Account_by_providing_only_the_Mandatory_fields -->
-        <test-method is-config="true" signature="logoOut()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" started-at="2025-08-27T21:37:25 PST" name="logoOut" finished-at="2025-08-27T21:37:26 PST" duration-ms="786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoOut -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3e7dd664]" started-at="2025-08-27T21:37:26 PST" name="teardown" finished-at="2025-08-27T21:37:26 PST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@7776ab]" started-at="2025-09-02T20:35:25 PST" name="teardown" finished-at="2025-09-02T20:35:25 PST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
-      <class name="testCases.TC_006_ProductCompareTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@16414e40]" started-at="2025-08-27T21:37:47 PST" name="setup" finished-at="2025-08-27T21:37:50 PST" duration-ms="3594" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testCompareProduct()[pri:0, instance:testCases.TC_006_ProductCompareTest@16414e40]" started-at="2025-08-27T21:37:50 PST" name="testCompareProduct" finished-at="2025-08-27T21:37:54 PST" duration-ms="3694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCompareProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_006_ProductCompareTest@16414e40]" started-at="2025-08-27T21:37:54 PST" name="teardown" finished-at="2025-08-27T21:37:54 PST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_006_ProductCompareTest -->
-      <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@4f25b795]" started-at="2025-08-27T21:37:26 PST" name="setup" finished-at="2025-08-27T21:37:30 PST" duration-ms="3897" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:0, instance:testCases.TC_002_LoginTest@4f25b795]" started-at="2025-08-27T21:37:30 PST" name="testLogin" finished-at="2025-08-27T21:37:32 PST" duration-ms="2034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginTest@4f25b795]" started-at="2025-08-27T21:37:32 PST" name="teardown" finished-at="2025-08-27T21:37:32 PST" duration-ms="154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_002_LoginTest -->
-      <class name="testCases.TC_005_AddToCartTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartTest@6e950bcf]" started-at="2025-08-27T21:37:38 PST" name="setup" finished-at="2025-08-27T21:37:42 PST" duration-ms="3489" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testAddToCart()[pri:0, instance:testCases.TC_005_AddToCartTest@6e950bcf]" started-at="2025-08-27T21:37:42 PST" name="testAddToCart" finished-at="2025-08-27T21:37:47 PST" duration-ms="4730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddToCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_005_AddToCartTest@6e950bcf]" started-at="2025-08-27T21:37:47 PST" name="teardown" finished-at="2025-08-27T21:37:47 PST" duration-ms="168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_005_AddToCartTest -->
-      <class name="testCases.TC_004_SearchTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_SearchTest@6fb365ed]" started-at="2025-08-27T21:37:32 PST" name="setup" finished-at="2025-08-27T21:37:36 PST" duration-ms="3843" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[linux]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testSearchProduct()[pri:0, instance:testCases.TC_004_SearchTest@6fb365ed]" started-at="2025-08-27T21:37:36 PST" name="testSearchProduct" finished-at="2025-08-27T21:37:38 PST" duration-ms="2504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_004_SearchTest@6fb365ed]" started-at="2025-08-27T21:37:38 PST" name="teardown" finished-at="2025-08-27T21:37:38 PST" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_004_SearchTest -->
+      </class> <!-- testCases.TC_RF_001_AccountRegistrationTest -->
     </test> <!-- LinuxChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

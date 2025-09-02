@@ -21,6 +21,7 @@ public class AccountRegistrationPage extends BasePage{
 	private By txtPasswordLocator = By.xpath("//input[@id='input-password']");
 	private By txtConfirmPasswordLocator = By.xpath("//input[@id='input-confirm']");
 	private By rdbtnSubscribeYesLocator = By.xpath("//label[normalize-space()='Yes']");
+	private By rdbtnSubscribeNoLocator = By.xpath("//label[normalize-space()='No']");
 	private By chkPrivacyPolicyLocator = By.xpath("//input[@name='agree']");
 	private By btnContinueLocator = By.xpath("//input[@value='Continue']");
 	
@@ -56,9 +57,15 @@ public class AccountRegistrationPage extends BasePage{
 		wait.until(ExpectedConditions.elementToBeClickable(txtConfirmPasswordLocator)).sendKeys(confirmPassword);
 	}
 	
-	public void clickBtnSubscribeYesLocator()
+	public void clickBtnSubscribeYes()
 	{
 		wait.until(ExpectedConditions.elementToBeClickable(rdbtnSubscribeYesLocator)).click();
+	}
+	
+	public void clickBtnSubscribeNo()
+	{
+		wait.until(ExpectedConditions.elementToBeClickable(rdbtnSubscribeNoLocator)).click();
+		
 	}
 	
 	public void clickPrivacyPolicy()

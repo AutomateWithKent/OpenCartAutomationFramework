@@ -8,11 +8,11 @@ import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 import testBase.BaseTest;
 
-public class TC_002_LoginTest extends BaseTest{
+public class TC_LF_001_LoginTest extends BaseTest{
 	
 	
 	@Test(groups = {"regression", "master"})
-	public void testLogin()
+	public void Validate_logging_into_the_Application_using_valid_credentials()
 	{
 		logger.info("**** Starting Test on TC_002_LoginTest ****");
 		HomePage hp = new HomePage(driver);

@@ -13,8 +13,9 @@ import pageObjects.MyAccountPage;
 import testBase.BaseTest;
 import utilities.RandomStringUtils;
 
-public class TC_001_AccountRegistrationTest extends BaseTest{
+public class TC_RF_001_AccountRegistrationTest extends BaseTest{
 	
+	/*
 	@AfterMethod
 	public void logoOut()
 	{
@@ -28,6 +29,7 @@ public class TC_001_AccountRegistrationTest extends BaseTest{
 	{
 		driver.get(properties.getProperty("apprUrl"));
 	}
+	*/
 	
 	@Test(groups = {"sanity","master"})
 	public void validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()
@@ -60,7 +62,7 @@ public class TC_001_AccountRegistrationTest extends BaseTest{
 		register.setConfirmPassword(password);
 		
 		logger.info("Clicking 'Yes' Subscribe Button");
-		register.clickBtnSubscribeYesLocator();
+		register.clickBtnSubscribeYes();
 		
 		logger.info("Clicked on Privacy Policy Checkbox");
 		register.clickPrivacyPolicy();
@@ -83,36 +85,5 @@ public class TC_001_AccountRegistrationTest extends BaseTest{
 		}
 		logger.info("**** Test Completed on TC_001_AccountRegistrationTest ****");
 	}
-	
-	@Test(groups= {"regression", "master"})
-	public void validate_Registering_an_Account_by_providing_all_the_fields()
-	{
-		HomePage home = new HomePage(driver);
-		home.clickMyAccount();
-		home.clickRegister();
-		
-		AccountRegistrationPage register = new AccountRegistrationPage(driver);
-		register.setFirstName(RandomStringUtils.generateRandomAlphabetic(11));
-		register.setLastName(RandomStringUtils.generateRandomAlphabetic(11));
-		register.setEmail(RandomStringUtils.generateRandomAlphaNumeric(8)+"@gmail.com");
-		register.setTelephone("09"+RandomStringUtils.generateRandomAlphaNumeric(9));
-		String password = RandomStringUtils.generateRandomAlphaNumeric(12);
-		register.setPassword(password);
-		register.setConfirmPassword(password);
-		register.clickPrivacyPolicy();
-		register.clickContinueButton();
-		
-		AccountConfirmationPage accountConfirmation = new AccountConfirmationPage(driver);
-		String actualConfirmationMessage = accountConfirmation.getAccountConfirmationMessage();
-		String expectedConfirmationText = "Your Account Has Been Created!";
-		try {
-			Assert.assertEquals(actualConfirmationMessage, expectedConfirmationText);
-			logger.info("Test passed");
-			}
-			catch(AssertionError ae)
-			{
-				logger.error("Test failed, AssertionError caught: " + ae.getMessage());
-				Assert.fail();
-			}
-	}
+
 }

@@ -1,0 +1,53 @@
+20:27:12.776 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml
+
+20:27:14.299 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+20:27:14.299 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Opening Browser 
+20:27:14.300 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicked on My Account Link 
+20:27:14.363 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicked on Register Link 
+20:27:14.579 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Navigating to Account Registration Page 
+20:27:14.580 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Inputting data on registration fields 
+20:27:14.728 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Inputting email on email field: CvwwbRu@gmail.com
+20:27:14.773 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Inputting password & confirm password: vKjOFHVUXoaKWhz
+20:27:14.870 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicking 'Yes' Subscribe Button
+20:27:14.927 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+20:27:15.000 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicked on Continue Button
+20:27:15.614 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+20:27:15.642 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Test passed
+20:27:15.642 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+20:27:19.848 [main] INFO  testCases.TC_LF_001_LoginTest - **** Starting Test on TC_002_LoginTest ****
+20:27:19.848 [main] INFO  testCases.TC_LF_001_LoginTest - Navigating to HomePage
+20:27:19.902 [main] INFO  testCases.TC_LF_001_LoginTest - Clicked on My Account Link
+20:27:20.101 [main] INFO  testCases.TC_LF_001_LoginTest - Click on Login Button
+20:27:20.102 [main] INFO  testCases.TC_LF_001_LoginTest - Navigating to LoginPage
+20:27:20.155 [main] INFO  testCases.TC_LF_001_LoginTest - Inputting email address: kent_test@gmail.com
+20:27:20.221 [main] INFO  testCases.TC_LF_001_LoginTest - Inputting password: testp@$$w0rd123
+20:27:20.268 [main] INFO  testCases.TC_LF_001_LoginTest - Clicked on Login Button
+20:27:20.269 [main] INFO  testCases.TC_LF_001_LoginTest - Navigating to MyAccountPage
+20:27:21.310 [main] INFO  testCases.TC_LF_001_LoginTest - Validating login
+20:27:21.311 [main] INFO  testCases.TC_LF_001_LoginTest - Test passed
+20:27:21.311 [main] INFO  testCases.TC_LF_001_LoginTest - **** Test Completed on TC_002_LoginTest ****
+20:35:22.005 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml"
+20:35:22.179 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kent\eclipse-workspace\OpenCartAutomationFramework\master.xml
+
+20:35:23.662 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - **** Starting Test on TC_001_AccountRegistrationTest ****
+20:35:23.663 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Opening Browser 
+20:35:23.665 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicked on My Account Link 
+20:35:23.730 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicked on Register Link 
+20:35:23.939 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Navigating to Account Registration Page 
+20:35:23.940 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Inputting data on registration fields 
+20:35:24.090 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Inputting email on email field: xwvSHEL@gmail.com
+20:35:24.162 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Inputting password & confirm password: 0bi2R8RJGSoVwLY
+20:35:24.276 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicking 'Yes' Subscribe Button
+20:35:24.327 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicked on Privacy Policy Checkbox
+20:35:24.374 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Clicked on Continue Button
+20:35:24.983 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Navigating to Account Confirmation Page
+20:35:25.009 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - Test passed
+20:35:25.009 [main] INFO  testCases.TC_RF_001_AccountRegistrationTest - **** Test Completed on TC_001_AccountRegistrationTest ****
+20:35:28.735 [main] INFO  testCases.TC_LF_001_LoginTest - **** Starting Test on TC_002_LoginTest ****
+20:35:28.735 [main] INFO  testCases.TC_LF_001_LoginTest - Navigating to HomePage
+20:35:28.789 [main] INFO  testCases.TC_LF_001_LoginTest - Clicked on My Account Link
+20:35:28.967 [main] INFO  testCases.TC_LF_001_LoginTest - Click on Login Button
+20:35:28.969 [main] INFO  testCases.TC_LF_001_LoginTest - Navigating to LoginPage
+20:35:29.024 [main] INFO  testCases.TC_LF_001_LoginTest - Inputting email address: kent_test@gmail.com

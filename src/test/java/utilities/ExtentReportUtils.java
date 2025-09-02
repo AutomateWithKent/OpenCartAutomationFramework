@@ -69,7 +69,7 @@ public class ExtentReportUtils implements ITestListener{
 		  }
 	
 	 public void onTestSuccess(ITestResult result) {
-		 		test = extent.createTest(result.getTestClass().getName() + "."+ result.getMethod().getMethodName());
+		 		test = extent.createTest(result.getTestClass().getName()+"."+result.getName());
 		 		test.assignCategory(result.getMethod().getGroups());
 		 		test.log(Status.PASS, result.getName() + " is successfully executed");
 		  }
