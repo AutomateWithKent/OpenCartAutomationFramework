@@ -1,6 +1,12 @@
-20:35:29.076 [main] INFO  testCases.TC_LF_001_LoginTest - Inputting password: testp@$$w0rd123
-20:35:29.129 [main] INFO  testCases.TC_LF_001_LoginTest - Clicked on Login Button
-20:35:29.131 [main] INFO  testCases.TC_LF_001_LoginTest - Navigating to MyAccountPage
-20:35:29.815 [main] INFO  testCases.TC_LF_001_LoginTest - Validating login
-20:35:29.815 [main] INFO  testCases.TC_LF_001_LoginTest - Test passed
-20:35:29.815 [main] INFO  testCases.TC_LF_001_LoginTest - **** Test Completed on TC_002_LoginTest ****
+19:31:19.162 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
+19:31:21.485 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
+19:31:21.486 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
+19:31:22.956 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
+19:31:22.957 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
+19:31:24.537 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
+19:31:24.538 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
+19:31:26.034 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
+19:31:26.036 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
+19:31:27.687 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****
+19:31:27.688 [main] INFO  testCases.TC_003_LoginDTT - **** Starting Test on TC_003_LoginDTT ****
+19:31:29.024 [main] INFO  testCases.TC_003_LoginDTT - **** Test Completed on TC_003_LoginDTT ****

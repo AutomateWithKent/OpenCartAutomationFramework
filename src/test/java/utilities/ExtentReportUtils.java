@@ -98,8 +98,4 @@ public class ExtentReportUtils implements ITestListener{
 		 		test.log(Status.SKIP, result.getName() + " is skipped");
 		  }
 	 
-	
-	 
-	 
-	 
 }

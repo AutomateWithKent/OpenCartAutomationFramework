@@ -17,14 +17,15 @@
 
   <test name="DataDrivenTest">
     <parameter name="browser" value="chrome"></parameter>
-    <parameter name="os" value="Windows 11"></parameter>
+    <parameter name="os" value="linux"></parameter>
     <classes>
-      <class name="testCases.TC_001_AccountRegistrationTest"></class>
-      <class name="testCases.TC_002_LoginTest"></class>
-      <class name="testCases.TC_003_LoginDTT"></class>
-      <class name="testCases.TC_004_SearchTest"></class>
-      <class name="testCases.TC_005_AddToCartTest"></class>
-      <class name="testCases.TC_006_ProductCompareTest"></class>
+      <class name="testCases.TC_RF_001_AccountRegistrationTest"></class>
+      <class name="testCases.TC_RF_003_AccountRegistrationTest"></class>
+      <class name="testCases.TC_LF_001_LoginTest"></class>
+      <class name="testCases.TC_003_LoginDTT"></class>  
+      <class name="testCases.TC_SF_001_SearchTest"></class>
+      <class name="testCases.TC_ATC_001_AddToCartTest"></class>
+      <class name="testCases.TC_PC_001_ProductCompareTest"></class>
     </classes>
   </test>
   
