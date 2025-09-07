@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="21" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-05T19:30:55 PST" name="CrossBrowserDDTSuite" finished-at="2025-09-05T19:31:29 PST" duration-ms="33999">
+  <suite started-at="2025-09-07T23:05:54 PST" name="Suite" finished-at="2025-09-07T23:06:19 PST" duration-ms="24899">
     <groups>
-      <group name="datadriven">
-        <method signature="TC_003_LoginDTT.verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" name="verifyLoginDTT" class="testCases.TC_003_LoginDTT"/>
-      </group> <!-- datadriven -->
+      <group name="regression">
+        <method signature="TC_ATC_001_AddToCartTest.Validate_adding_the_product_to_Cart_from__Product_Display_Page()[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@141e5bef]" name="Validate_adding_the_product_to_Cart_from__Product_Display_Page" class="testCases.TC_ATC_001_AddToCartTest"/>
+        <method signature="TC_LF_001_LoginTest.Validate_logging_into_the_Application_using_valid_credentials()[pri:0, instance:testCases.TC_LF_001_LoginTest@2fd953a6]" name="Validate_logging_into_the_Application_using_valid_credentials" class="testCases.TC_LF_001_LoginTest"/>
+        <method signature="TC_PC_001_ProductCompareTest.Validate_adding_the_product_for_comparision_from_Product_Display_Page()[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@5f9be66c]" name="Validate_adding_the_product_for_comparision_from_Product_Display_Page" class="testCases.TC_PC_001_ProductCompareTest"/>
+        <method signature="TC_RF_003_AccountRegistrationTest.Validate_registering_an_account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@60856961]" name="Validate_registering_an_account_by_providing_all_the_fields" class="testCases.TC_RF_003_AccountRegistrationTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_RF_001_AccountRegistrationTest.validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@1458ed9c]" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" class="testCases.TC_RF_001_AccountRegistrationTest"/>
+        <method signature="TC_SF_001_SearchTest.Validate_searching_with_an_existing_Product_Name()[pri:0, instance:testCases.TC_SF_001_SearchTest@a4add54]" name="Validate_searching_with_an_existing_Product_Name" class="testCases.TC_SF_001_SearchTest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_ATC_001_AddToCartTest.Validate_adding_the_product_to_Cart_from__Product_Display_Page()[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@141e5bef]" name="Validate_adding_the_product_to_Cart_from__Product_Display_Page" class="testCases.TC_ATC_001_AddToCartTest"/>
+        <method signature="TC_LF_001_LoginTest.Validate_logging_into_the_Application_using_valid_credentials()[pri:0, instance:testCases.TC_LF_001_LoginTest@2fd953a6]" name="Validate_logging_into_the_Application_using_valid_credentials" class="testCases.TC_LF_001_LoginTest"/>
+        <method signature="TC_PC_001_ProductCompareTest.Validate_adding_the_product_for_comparision_from_Product_Display_Page()[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@5f9be66c]" name="Validate_adding_the_product_for_comparision_from_Product_Display_Page" class="testCases.TC_PC_001_ProductCompareTest"/>
+        <method signature="TC_RF_001_AccountRegistrationTest.validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@1458ed9c]" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" class="testCases.TC_RF_001_AccountRegistrationTest"/>
+        <method signature="TC_RF_003_AccountRegistrationTest.Validate_registering_an_account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@60856961]" name="Validate_registering_an_account_by_providing_all_the_fields" class="testCases.TC_RF_003_AccountRegistrationTest"/>
+        <method signature="TC_SF_001_SearchTest.Validate_searching_with_an_existing_Product_Name()[pri:0, instance:testCases.TC_SF_001_SearchTest@a4add54]" name="Validate_searching_with_an_existing_Product_Name" class="testCases.TC_SF_001_SearchTest"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2025-09-05T19:30:55 PST" name="DataDrivenTest" finished-at="2025-09-05T19:31:29 PST" duration-ms="33999">
-      <class name="testCases.TC_003_LoginDTT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:30:55 PST" name="setup" finished-at="2025-09-05T19:30:56 PST" duration-ms="1536" status="PASS">
+    <test started-at="2025-09-07T23:05:54 PST" name="LinuxChromeTest" finished-at="2025-09-07T23:06:19 PST" duration-ms="24899">
+      <class name="testCases.TC_PC_001_ProductCompareTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@5f9be66c]" started-at="2025-09-07T23:06:14 PST" name="setup" finished-at="2025-09-07T23:06:15 PST" duration-ms="1043" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,326 +41,145 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:30:58 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:01 PST" duration-ms="2454" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kent_test@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[testp@$$w0rd123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Validate_adding_the_product_for_comparision_from_Product_Display_Page()[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@5f9be66c]" started-at="2025-09-07T23:06:15 PST" name="Validate_adding_the_product_for_comparision_from_Product_Display_Page" finished-at="2025-09-07T23:06:19 PST" duration-ms="3697" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:01 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:03 PST" duration-ms="2198" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test0112@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:03 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:05 PST" duration-ms="2280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test0113@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:05 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:08 PST" duration-ms="2675" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kent.test@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Testp@$$w0rd123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:08 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:10 PST" duration-ms="2056" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eHUGFCV@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[nJ9vdesTXnsjyC1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:10 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:12 PST" duration-ms="2315" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MMwAGje@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[aUGQSj8IBj1FBrP]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:12 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:14 PST" duration-ms="2236" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BcdrkRV@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[fBA9CWCqxFpflzM]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:14 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:16 PST" duration-ms="2177" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[gkPsdRR@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[LvGv6OQNhzLkaOy]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:16 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:19 PST" duration-ms="2191" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VYQKbei@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1i7B5x04AO8cex1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:19 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:21 PST" duration-ms="2324" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rpqUcfO@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4MuIrUIdnf7OYgO]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:21 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:22 PST" duration-ms="1470" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kent.test33@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Testp@$$w0rd123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:22 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:24 PST" duration-ms="1580" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kent.test34@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Testp@$$w0rd123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:24 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:26 PST" duration-ms="1497" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kent.test35@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Testp@$$w0rd123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:26 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:27 PST" duration-ms="1652" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kent.test36@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Testp@$$w0rd123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method signature="verifyLoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:27 PST" name="verifyLoginDTT" data-provider="LoginData" finished-at="2025-09-05T19:31:29 PST" duration-ms="1336" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kent.test37@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Testp@$$w0rd123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginDTT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_003_LoginDTT@5d066c7d]" started-at="2025-09-05T19:31:29 PST" name="teardown" finished-at="2025-09-05T19:31:29 PST" duration-ms="92" status="PASS">
+        </test-method> <!-- Validate_adding_the_product_for_comparision_from_Product_Display_Page -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_PC_001_ProductCompareTest@5f9be66c]" started-at="2025-09-07T23:06:19 PST" name="teardown" finished-at="2025-09-07T23:06:19 PST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_003_LoginDTT -->
-    </test> <!-- DataDrivenTest -->
-  </suite> <!-- CrossBrowserDDTSuite -->
+      </class> <!-- testCases.TC_PC_001_ProductCompareTest -->
+      <class name="testCases.TC_ATC_001_AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@141e5bef]" started-at="2025-09-07T23:06:08 PST" name="setup" finished-at="2025-09-07T23:06:09 PST" duration-ms="1081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_adding_the_product_to_Cart_from__Product_Display_Page()[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@141e5bef]" started-at="2025-09-07T23:06:09 PST" name="Validate_adding_the_product_to_Cart_from__Product_Display_Page" finished-at="2025-09-07T23:06:14 PST" duration-ms="4526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_adding_the_product_to_Cart_from__Product_Display_Page -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_ATC_001_AddToCartTest@141e5bef]" started-at="2025-09-07T23:06:14 PST" name="teardown" finished-at="2025-09-07T23:06:14 PST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_ATC_001_AddToCartTest -->
+      <class name="testCases.TC_LF_001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_001_LoginTest@2fd953a6]" started-at="2025-09-07T23:06:02 PST" name="setup" finished-at="2025-09-07T23:06:03 PST" duration-ms="1023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_logging_into_the_Application_using_valid_credentials()[pri:0, instance:testCases.TC_LF_001_LoginTest@2fd953a6]" started-at="2025-09-07T23:06:03 PST" name="Validate_logging_into_the_Application_using_valid_credentials" finished-at="2025-09-07T23:06:04 PST" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_logging_into_the_Application_using_valid_credentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_LF_001_LoginTest@2fd953a6]" started-at="2025-09-07T23:06:04 PST" name="teardown" finished-at="2025-09-07T23:06:04 PST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_LF_001_LoginTest -->
+      <class name="testCases.TC_RF_003_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@60856961]" started-at="2025-09-07T23:05:58 PST" name="setup" finished-at="2025-09-07T23:05:59 PST" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_registering_an_account_by_providing_all_the_fields()[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@60856961]" started-at="2025-09-07T23:05:59 PST" name="Validate_registering_an_account_by_providing_all_the_fields" finished-at="2025-09-07T23:06:02 PST" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_registering_an_account_by_providing_all_the_fields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_RF_003_AccountRegistrationTest@60856961]" started-at="2025-09-07T23:06:02 PST" name="teardown" finished-at="2025-09-07T23:06:02 PST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_RF_003_AccountRegistrationTest -->
+      <class name="testCases.TC_SF_001_SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_001_SearchTest@a4add54]" started-at="2025-09-07T23:06:04 PST" name="setup" finished-at="2025-09-07T23:06:06 PST" duration-ms="1245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_searching_with_an_existing_Product_Name()[pri:0, instance:testCases.TC_SF_001_SearchTest@a4add54]" started-at="2025-09-07T23:06:06 PST" name="Validate_searching_with_an_existing_Product_Name" finished-at="2025-09-07T23:06:08 PST" duration-ms="2522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_searching_with_an_existing_Product_Name -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_SF_001_SearchTest@a4add54]" started-at="2025-09-07T23:06:08 PST" name="teardown" finished-at="2025-09-07T23:06:08 PST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_SF_001_SearchTest -->
+      <class name="testCases.TC_RF_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@1458ed9c]" started-at="2025-09-07T23:05:54 PST" name="setup" finished-at="2025-09-07T23:05:56 PST" duration-ms="1561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields()[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@1458ed9c]" started-at="2025-09-07T23:05:56 PST" name="validate_Registering_an_Account_by_providing_only_the_Mandatory_fields" finished-at="2025-09-07T23:05:58 PST" duration-ms="2512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Registering_an_Account_by_providing_only_the_Mandatory_fields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_RF_001_AccountRegistrationTest@1458ed9c]" started-at="2025-09-07T23:05:58 PST" name="teardown" finished-at="2025-09-07T23:05:58 PST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_RF_001_AccountRegistrationTest -->
+    </test> <!-- LinuxChromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
